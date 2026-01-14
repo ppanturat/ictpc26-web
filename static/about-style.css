@@ -1,0 +1,42 @@
+h1 {
+    font-size: 45px;
+}
+
+.box {
+    width: fit-content;  
+    margin: 0px auto 60px;  
+    padding: 5px 12px 0px; 
+    
+    position: relative;
+    border: 1px solid var(--core-white);
+    display: flex;
+    flex-direction: column;
+    overflow: visible; 
+}
+
+.container {
+    border: 2px solid var(--core-white);
+    text-align: left;
+
+    padding: 27px 27px 10px;
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+.title{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.corner {
+    position: absolute;
+    width: 8px;  
+    height: 8px;
+    border: 1px solid var(--core-white); 
+    background-color: var(--core-black);
+}
+
+.tl { top: -5px; left: -5px; }  
+.tr { top: -5px; right: -5px; }  
+.bl { bottom: -5px; left: -5px; }
+.br { bottom: -5px; right: -5px; }

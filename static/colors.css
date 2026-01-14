@@ -1,0 +1,45 @@
+:root {
+  /*  Core  */
+  --core-white: #FFFFFF;
+  --core-black: #1E272E;
+
+  --core-dark-gray: #4A5565;
+  --core-gray: #757E91;
+  --core-light-gray: #A1A7B4;
+
+  --core-dark-blue: #002BAA;
+  --core-blue: #2E5DE9;
+  --core-light-blue: #A6C0FF;
+
+  --core-dark-magenta: #9E00A7;
+  --core-magenta: #E25BE9;
+  --core-light-magenta: #F3BFF9;
+
+  --core-dark-red: #B41B00;
+  --core-red: #FB4A2A;
+  --core-light-red: #FAAF98;
+
+  --core-dark-orange: #AA5000;
+  --core-orange: #FAA100;
+  --core-light-orange: #FAD288;
+
+  --core-dark-yellow: #B48700;
+  --core-yellow: #F8DD2F;
+  --core-light-yellow: #FFF194;
+
+  --core-dark-green: #548000;
+  --core-green: #A9E041;
+  --core-light-green: #E7FDA7;
+
+  --core-dark-turquoise: #006C6C;
+  --core-turquoise: #41E0A8;
+  --core-light-turquoise: #BDFBCC;
+
+  /*  ICTPC  */
+  --ictpc-light-cornflower: #B3CBFF;
+  --ictpc-bright-red: #FF4757;
+  --ictpc-bright-blue: #0038E1;
+  --ictpc-chartreuse: #BFEE00;
+  --ictpc-bright-magenta: #E056FD;
+  --ictpc-bright-orange: #FBC503;
+}

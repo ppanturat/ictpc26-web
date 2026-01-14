@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Google Sans'; 
+    src: url('fonts/GoogleSans-VariableFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@view-transition { 
+    navigation: auto; 
+}
+
+body {
+    transition: background-color 1s ease;
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Google Sans', sans-serif;
+    color: var(--core-white);
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.theme-blue {
+    background-color: var(--ictpc-bright-blue);
+}
+
+.theme-black {
+    background-color: var(--core-black);
+}
+
+.back-btn {
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: var(--core-black);
+    background-color: var(--core-white);
+
+    margin: 60px 250px 0px;
+    padding: 3px 8px;
+
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.back-btn:hover {
+    transform: translateY(-4px); 
+}
+
+.back-btn:active {
+    transform: translateY(-2px) scale(0.98);
+    transition: transform 0.05s ease;
+}
+
+#top-logos {
+    width: 157px;
+    height: 64.93px;
+    margin: 0px 20px;
+}
+
+/* marquee */
+.marquee-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden; 
+    font-size: 27px;
+}
+
+.marquee-wrapper {
+    flex: 1; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    color: var(--core-white);
+}
+
+.track-left, .track-right {
+    display: inline-flex;
+}
+
+.track-left p, .track-right p {
+    padding-right: 20px; 
+    margin: 0;
+}
+
+.track-left {
+    animation: scroll-left 10s linear infinite;
+}
+
+.track-right {
+    animation: scroll-right 10s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } 
+}
+
+@keyframes scroll-right {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+}

@@ -1,124 +1,139 @@
-a.box {
-    text-decoration: none; 
-    color: inherit; 
-    display: flex; 
+/* --- HEADER SECTION --- */
+#ict-cup-header {
+    margin-top: 30px;
+    font-size: clamp(20px, 4vw, 32px); 
 }
 
-#ict-cup-header{
-    margin-top: 30px;
+.subtitle {
+    margin: 0 auto 40px;
+    padding: 0 20px;
+    font-size: clamp(14px, 2vw, 16px);
+    opacity: 0.9;
 }
 
 #ictpc26-wordmark {
-    width: 405px;
-    margin: 15px auto;
+    width: clamp(280px, 80vw, 450px); 
+    height: auto;
+    margin: 10px auto;
+    display: block;
 }
 
-#openchat, #devclub{
-    width: 50px;
-    height: 50px;
-}
-
-#ictsa {
-    width: 100px;
-    height: 55px;
-}
-
+/* --- GRID LAYOUT SYSTEM --- */
 .menu-container {
     display: grid;
-    gap: 30px;
+    gap: 20px; 
+    
+    /* Layout Logic: */
     width: 100%;
-    margin-top: 60px;
+    max-width: 1000px; 
+    margin: 40px auto; 
+    padding: 0 20px 40px; 
     box-sizing: border-box;
+
+    /* Mobile First: 2 Columns */
     grid-template-columns: repeat(2, 1fr);
-    padding: 0px 20px 30px;
 }
 
-@media (min-width: 768px) {
+/* Tablet: 3 Columns */
+@media (min-width: 600px) {
     .menu-container {
+        gap: 30px;
         grid-template-columns: repeat(3, 1fr);
-        padding: 0px 120px 30px;
     }
 }
 
-@media (min-width: 1024px) {
+/* Desktop: 4 Columns */
+@media (min-width: 900px) {
     .menu-container {
         grid-template-columns: repeat(4, 1fr);
-        padding: 0px 220px 30px;
     }
 }
 
-.box {
+/* --- THE BOXES --- */
+.box, a.box {
+    position: relative;
     border: 1px solid var(--core-white);
-    aspect-ratio: 1 / 1; 
-    width: 100%;         
+    aspect-ratio: 1 / 1; /* Forces perfect square */
+    width: 100%;
     
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
-    align-items: flex-start;        
+    justify-content: space-between;
+    align-items: flex-start;
     
-    padding: 16px 0px 0px 16px;
+    padding: 12%; /* Responsive padding inside the box */
     box-sizing: border-box;
     background: transparent;
 
-    position: relative; 
-    overflow: visible;
-
-    /* animation */
-    transition: transform 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
-    cursor: pointer; 
-}
-
-.box .icon {
-    /* animation */
-    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    
+    /* Animation */
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+                background-color 0.2s ease;
 }
 
 .box:hover {
-    transform: translateY(-8px); 
+    transform: translateY(-8px);
 }
 
 .box:active {
     transform: translateY(-2px) scale(0.98);
-    transition: transform 0.05s ease;
-
-    border: 1px solid var(--core-dark-blue);
     background-color: var(--core-white);
+    border-color: var(--core-dark-blue);
+    transition: transform 0.05s ease;
 }
 
+/* --- ICONS --- */
 .icon {
-    width: 70px; 
-    height: 70px; 
-    object-fit: contain; 
+    width: 45%; 
+    height: auto; 
+    object-fit: contain;
+    
+    transition: transform 0.3s ease;
 }
 
-.box:active .icon {
-    filter: brightness(0) saturate(100%) invert(13%) sepia(96%) saturate(4422%) hue-rotate(228deg) brightness(90%) contrast(101%);
+.wide-icon, #ictsa {
+    width: 60%; 
+    max-height: 40%;
 }
 
+#openchat, #devclub {
+    width: 30%; 
+}
+
+/* --- TEXT LABEL --- */
 .label {
-    font-size: 1.8rem;
+    font-size: clamp(1rem, 2.5vw, 1.8rem);
     font-weight: bold;
+    margin: 0;
+    line-height: 1;
 }
 
+/* --- INTERACTION EFFECTS (Invert Colors) --- */
+.box:active .icon,
 .box:active .label {
+    /* This filter turns white to dark blue */
     filter: brightness(0) saturate(100%) invert(13%) sepia(96%) saturate(4422%) hue-rotate(228deg) brightness(90%) contrast(101%);
 }
 
+/* --- CORNER DECORATION --- */
 .corner {
     position: absolute;
-    width: 8px;  
+    width: 8px;
     height: 8px;
-    border: 1px solid var(--core-white); 
+    border: 1px solid var(--core-white);
     background-color: var(--ictpc-bright-blue);
+    transition: background-color 0.2s;
 }
+
+.tl { top: -5px; left: -5px; }
+.tr { top: -5px; right: -5px; }
+.bl { bottom: -5px; left: -5px; }
+.br { bottom: -5px; right: -5px; }
 
 .box:active .corner {
     border-color: var(--core-dark-blue);
     background-color: var(--core-white);
 }
-
-.tl { top: -5px; left: -5px; }  
-.tr { top: -5px; right: -5px; }  
-.bl { bottom: -5px; left: -5px; }
-.br { bottom: -5px; right: -5px; }

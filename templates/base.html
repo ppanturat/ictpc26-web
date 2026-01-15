@@ -12,27 +12,31 @@
     {% block style %}{% endblock %}
 </head>
 <body class="{% block body_class %}theme-blue{% endblock %}">
-    <div class="marquee-container">
 
+    <div class="bg-header">
+        <img src="{% block header_image %}{{ url_for('static', filename='images/bg-blue.png') }}{% endblock %}" alt="Background">
+    </div>
+
+    <div class="marquee-container">
         <div class="marquee-wrapper">
             <div class="track-left">
                 <p>\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};
                     \(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};
-                \(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};</p>
+                    \(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};
+                   \(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};</p>
             </div>
         </div>
 
-        <img id="top-logos" src="{{ url_for('static', filename='images/top-logos.svg') }}" alt="Logos">
+        <img id="top-logos" src="{{ url_for('static', filename='images/top-logos.svg') }}" alt="ICTPC Logos">
 
         <div class="marquee-wrapper">
             <div class="track-right">
                 <p>\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};
                     \(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};
                     \(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};
-                \(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};</p>
+                   \(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};\(&gt;]{|:-)~.=&lt;};</p>
             </div>
         </div>
-
     </div>
 
     {% block content %}{% endblock %}

@@ -6,119 +6,98 @@
 
 {% block content %}
     <h1 id="ict-cup-header"><b>ICT Cup 2025</b></h1>
-    <img id="ictpc26-wordmark" class="center" src="{{ url_for('static', filename='images/ictpc26-wordmark.svg') }}">
-    <p>Faculty of Information and Communication Technology, Mahidol University</p>
+    
+    <img id="ictpc26-wordmark" src="{{ url_for('static', filename='images/ictpc26-wordmark.svg') }}" alt="ICTPC 2026">
+    
+    <p class="subtitle">Faculty of Information and Communication Technology, Mahidol University</p>
 
     <div class="menu-container">
         <a href="{{ url_for('about') }}" class="box" id="about-box">
-            <span class="corner tl"></span>
-            <span class="corner tr"></span>
-            <span class="corner bl"></span>
-            <span class="corner br"></span>
-
+            <span class="corner tl"></span><span class="corner tr"></span>
+            <span class="corner bl"></span><span class="corner br"></span>
+            
             <img class="icon" src="{{ url_for('static', filename='images/icons/about.svg') }}" alt="About">
             <p class="label">About</p>
         </a>
 
         <div class="box" id="rules-box">
-            <span class="corner tl"></span>
-            <span class="corner tr"></span>
-            <span class="corner bl"></span>
-            <span class="corner br"></span>
-
+            <span class="corner tl"></span><span class="corner tr"></span>
+            <span class="corner bl"></span><span class="corner br"></span>
+            
             <img class="icon" src="{{ url_for('static', filename='images/icons/rules.svg') }}" alt="Rules">
             <p class="label">Rules</p>
         </div>
 
         <div class="box" id="teams-box">
-            <span class="corner tl"></span>
-            <span class="corner tr"></span>
-            <span class="corner bl"></span>
-            <span class="corner br"></span>
-
+            <span class="corner tl"></span><span class="corner tr"></span>
+            <span class="corner bl"></span><span class="corner br"></span>
+            
             <img class="icon" src="{{ url_for('static', filename='images/icons/teams.svg') }}" alt="Teams">
             <p class="label">Teams</p>
         </div>
 
         <div class="box" id="scores-box">
-            <span class="corner tl"></span>
-            <span class="corner tr"></span>
-            <span class="corner bl"></span>
-            <span class="corner br"></span>
-
+            <span class="corner tl"></span><span class="corner tr"></span>
+            <span class="corner bl"></span><span class="corner br"></span>
+            
             <img class="icon" src="{{ url_for('static', filename='images/icons/scores.svg') }}" alt="Scores">
             <p class="label">Scores</p>
         </div>
 
         <div class="box" id="practice-box">
-            <span class="corner tl"></span>
-            <span class="corner tr"></span>
-            <span class="corner bl"></span>
-            <span class="corner br"></span>
-
+            <span class="corner tl"></span><span class="corner tr"></span>
+            <span class="corner bl"></span><span class="corner br"></span>
+            
             <img class="icon" src="{{ url_for('static', filename='images/icons/practice.svg') }}" alt="Practice">
             <p class="label">Practice</p>
         </div>
 
         <div class="box" id="competition-box">
-            <span class="corner tl"></span>
-            <span class="corner tr"></span>
-            <span class="corner bl"></span>
-            <span class="corner br"></span>
-
+            <span class="corner tl"></span><span class="corner tr"></span>
+            <span class="corner bl"></span><span class="corner br"></span>
+            
             <img class="icon" src="{{ url_for('static', filename='images/icons/competition.svg') }}" alt="Competition">
             <p class="label">Competition</p>
         </div>
 
         <div class="box" id="photos-box">
-            <span class="corner tl"></span>
-            <span class="corner tr"></span>
-            <span class="corner bl"></span>
-            <span class="corner br"></span>
-
+            <span class="corner tl"></span><span class="corner tr"></span>
+            <span class="corner bl"></span><span class="corner br"></span>
+            
             <img class="icon" src="{{ url_for('static', filename='images/icons/photos.svg') }}" alt="Photos">
             <p class="label">Photos</p>
         </div>
 
         <div class="box" id="schedule-box">
-            <span class="corner tl"></span>
-            <span class="corner tr"></span>
-            <span class="corner bl"></span>
-            <span class="corner br"></span>
-
+            <span class="corner tl"></span><span class="corner tr"></span>
+            <span class="corner bl"></span><span class="corner br"></span>
+            
             <img class="icon" src="{{ url_for('static', filename='images/icons/schedule.svg') }}" alt="Schedule">
             <p class="label">Schedule</p>
         </div>
 
         <div class="box" id="openchat-box">
-            <span class="corner tl"></span>
-            <span class="corner tr"></span>
-            <span class="corner bl"></span>
-            <span class="corner br"></span>
-
-            <img id="openchat" class="icon" src="{{ url_for('static', filename='images/icons/openchat.svg') }}" alt="OpenChat">
+            <span class="corner tl"></span><span class="corner tr"></span>
+            <span class="corner bl"></span><span class="corner br"></span>
+            
+            <img class="icon" id="openchat" src="{{ url_for('static', filename='images/icons/openchat.svg') }}" alt="OpenChat">
             <p class="label">OpenChat</p>
         </div>
 
         <div class="box" id="ictsa-box">
-            <span class="corner tl"></span>
-            <span class="corner tr"></span>
-            <span class="corner bl"></span>
-            <span class="corner br"></span>
-
-            <img id="ictsa" class="icon" src="{{ url_for('static', filename='images/icons/ictsa.svg') }}" alt="ICTSA">
+            <span class="corner tl"></span><span class="corner tr"></span>
+            <span class="corner bl"></span><span class="corner br"></span>
+            
+            <img class="icon wide-icon" id="ictsa" src="{{ url_for('static', filename='images/icons/ictsa.svg') }}" alt="ICTSA">
             <p class="label">ICTSA</p>
         </div>
 
         <div class="box" id="devclub-box">
-            <span class="corner tl"></span>
-            <span class="corner tr"></span>
-            <span class="corner bl"></span>
-            <span class="corner br"></span>
-
-            <img id="devclub" class="icon" src="{{ url_for('static', filename='images/icons/devclub.svg') }}" alt="Dev Club">
+            <span class="corner tl"></span><span class="corner tr"></span>
+            <span class="corner bl"></span><span class="corner br"></span>
+            
+            <img class="icon" id="devclub" src="{{ url_for('static', filename='images/icons/devclub.svg') }}" alt="Dev Club">
             <p class="label">Dev Club</p>
         </div>
     </div>
-
 {% endblock %}

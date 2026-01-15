@@ -2,44 +2,52 @@
 
 {% block body_class %}theme-black{% endblock %}
 
+{% block header_image %}
+    {{ url_for('static', filename='images/bg-black.png') }}
+{% endblock %}
+
 {% block style %}
     <link rel="stylesheet" href="{{ url_for('static', filename='about-style.css') }}">
 {% endblock %}
 
 {% block content %}
-    <p><a href="{{ url_for('home') }}" class="back-btn">&lt; Back</a></p>
-    <div class="box">
-        <span class="corner tl"></span>
-        <span class="corner tr"></span>
-        <span class="corner bl"></span>
-        <span class="corner br"></span>
-
-        <h1 class="title">About</h1>
+    
+    <div class="layout-wrapper">
+        <a href="{{ url_for('home') }}" class="back-btn">&lt; Back</a>
     </div>
 
-    <div class="container">
-        <h3 class="title">About ICT Cup</h3>
+    <div class="title-box">
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
+        <h1 class="main-title">About</h1>
+    </div>
+
+    <div class="content-container">
+        <h3 class="section-title">About ICT Cup</h3>
         <p>
             The ICT Cup is an annual event designed to bring students from the ICT and DST faculties together, 
             fostering camaraderie and building strong friendships within the community.
         </p>
     </div>
 
-    <div class="container">
-        <h3 class="title">About ICTPC26 and DevClub</h3>
+    <div class="content-container">
+        <h3 class="section-title">About ICTPC26 and DevClub</h3>
         <p>
             ICTPC (ICT Programming Competition) is inspired by the ICPC, which is the world's oldest, 
             largest, and most prestigious algorithmic competition for university students. ICTPC is simplified 
-            to also be accessible for beginners.<br>
-
-            <br>We offer a balanced problem set that challenges your logic without being overwhelming, helping you 
-            build the computational thinking skills needed for future courses and bigger stages, including ICPC!<br>
-
-            <br>Dev Club, in association with the Faculty of Information and Communication Technology, Mahidol University, 
+            to also be accessible for beginners.
+        </p>
+        <p>
+            We offer a balanced problem set that challenges your logic without being overwhelming, helping you 
+            build the computational thinking skills needed for future courses and bigger stages, including ICPC!
+        </p>
+        <p>
+            Dev Club, in association with the Faculty of Information and Communication Technology, Mahidol University, 
             is a student club under the Faculty of ICT at Mahidol University. It serves as a hub and learning space 
             for students specializing in software development, UX design, interface design, software quality assurance, 
             project management, and game development, providing a real-world working environment.
-       </p>
+        </p>
     </div>
     
+    <div style="height: 60px;"></div>
 {% endblock %}

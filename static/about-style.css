@@ -1,39 +1,83 @@
-h1 {
-    font-size: 45px;
+/* --- ALIGNMENT WRAPPER --- */
+.layout-wrapper {
+    width: 90%;         
+    max-width: 800px;    
+    margin: 40px auto 0; 
+    
+    text-align: left;   
 }
 
-.box {
+/* --- OVERRIDE GLOBAL BUTTON STYLE --- */
+.layout-wrapper .back-btn {
+    margin: 0; 
+}
+
+/* --- TITLE BOX --- */
+.title-box {
     width: fit-content;  
-    margin: 0px auto 60px;  
-    padding: 5px 12px 0px; 
+    margin: 20px auto 50px; 
+    padding: 10px 20px;     
     
     position: relative;
     border: 1px solid var(--core-white);
     display: flex;
     flex-direction: column;
+    
     overflow: visible; 
 }
 
-.container {
+.main-title {
+    font-size: clamp(32px, 5vw, 45px);
+    font-weight: bold;
+    letter-spacing: 3px; 
+    margin: 0;
+}
+
+/* --- TEXT CONTAINERS --- */
+.content-container {
     border: 2px solid var(--core-white);
     text-align: left;
 
-    padding: 27px 27px 10px;
-    margin: 30px auto;
-    max-width: 800px;
+    /* LAYOUT LOGIC */
+    width: 90%;          
+    max-width: 800px;   
+    margin: 30px auto;   
+    
+    /* Fluid Padding */
+    padding: clamp(20px, 4vw, 40px);
+    box-sizing: border-box;
 }
 
-.title{
+/* --- TYPOGRAPHY --- */
+.section-title {
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    
+    /* Fluid Subheader */
+    font-size: clamp(20px, 3vw, 24px);
 }
 
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: clamp(14px, 2vw, 16px);
+    opacity: 0.9;
+}
+
+/* --- CORNERS --- */
 .corner {
     position: absolute;
     width: 8px;  
     height: 8px;
     border: 1px solid var(--core-white); 
+    
     background-color: var(--core-black);
+    transition: background-color 0.3s;
+}
+
+.title-box:hover .corner {
+    background-color: var(--ictpc-bright-blue);
 }
 
 .tl { top: -5px; left: -5px; }  

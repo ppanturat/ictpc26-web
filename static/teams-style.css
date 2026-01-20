@@ -1,0 +1,98 @@
+/* --- LAYOUT WRAPPER (Back Button Alignment) --- */
+.layout-wrapper {
+    width: 90%;
+    max-width: 1000px; /* Matches grid max-width */
+    margin: 40px auto 0;
+    text-align: left;
+}
+.layout-wrapper .back-btn { margin: 0; }
+
+/* --- TITLE BOX --- */
+.title-box {
+    width: fit-content;
+    margin: 20px auto 50px;
+    padding: 10px 40px;
+    position: relative;
+    border: 1px solid var(--core-white);
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+}
+
+.main-title {
+    font-size: clamp(32px, 5vw, 45px);
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+/* Corners */
+.corner {
+    position: absolute; width: 8px; height: 8px;
+    border: 1px solid var(--core-white);
+    background-color: var(--core-black);
+}
+.tl { top: -5px; left: -5px; } .tr { top: -5px; right: -5px; }
+.bl { bottom: -5px; left: -5px; } .br { bottom: -5px; right: -5px; }
+
+
+/* --- TEAMS GRID SYSTEM --- */
+.teams-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    
+    width: 90%;
+    max-width: 1000px; 
+    margin: 0 auto;
+}
+
+/* --- INDIVIDUAL TEAM CARD --- */
+.team-card {
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    
+    background-color: transparent;
+    text-align: left;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    transition: transform 0.2s ease, background-color 0.2s;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--core-white);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* --- TYPOGRAPHY --- */
+.team-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: var(--core-white);
+}
+
+.program {
+    font-weight: normal;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.member-count {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.6;
+    letter-spacing: 1px;
+}
+
+.member-ids {
+    margin: 5px 0 0 0;
+    font-family: 'Google Sans', monospace; 
+    font-size: 1.1rem;
+    color: var(--core-white);
+    line-height: 1.4;
+}

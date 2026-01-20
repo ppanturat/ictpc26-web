@@ -28,13 +28,13 @@
             <p class="label">Rules</p>
         </a>
 
-        <div class="box" id="teams-box">
+        <a href="{{ url_for('teams') }}" class="box" id="teams-box">
             <span class="corner tl"></span><span class="corner tr"></span>
             <span class="corner bl"></span><span class="corner br"></span>
             
             <img class="icon" src="{{ url_for('static', filename='images/icons/teams.svg') }}" alt="Teams">
             <p class="label">Teams</p>
-        </div>
+        </a>
 
         <div class="box" id="scores-box">
             <span class="corner tl"></span><span class="corner tr"></span>

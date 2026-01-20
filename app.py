@@ -1,4 +1,6 @@
-import pandas as pd
+import csv
+import requests
+import io
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -18,44 +20,48 @@ def about():
 def rules():
     return render_template('rules.html')
 
+@app.route('/schedule')
+def schedule():
+    return render_template('schedule.html')
+
 @app.route('/teams')
 def teams():
     try:
-        df = pd.read_csv(SHEET_URL)
+        # Download the CSV text using requests (Lighter than Pandas)
+        response = requests.get(SHEET_URL)
+        response.raise_for_status() # Check for download errors
         
-        # Fill empty cells with empty strings to avoid errors
-        df = df.fillna('')
+        # Parse CSV data
+        csv_file = io.StringIO(response.text)
+        reader = csv.DictReader(csv_file)
         
         teams_data = []
         
-        for index, row in df.iterrows():
+        for row in reader:
+            # --- Collect Members ---
             members_list = []
-            if str(row['Member 1 ID']).strip(): members_list.append(str(row['Member 1 ID']))
-            if str(row['Member 2 ID']).strip(): members_list.append(str(row['Member 2 ID']))
-            if str(row['Member 3 ID']).strip(): members_list.append(str(row['Member 3 ID']))
+            if row.get('Member 1 ID', '').strip(): members_list.append(row['Member 1 ID'].strip())
+            if row.get('Member 2 ID', '').strip(): members_list.append(row['Member 2 ID'].strip())
+            if row.get('Member 3 ID', '').strip(): members_list.append(row['Member 3 ID'].strip())
 
+            # --- Calculate Program ---
             programs_found = set()
-            
-            if str(row['Member 1 Program']).strip(): programs_found.add(str(row['Member 1 Program']).strip())
-            if str(row['Member 2 Program']).strip(): programs_found.add(str(row['Member 2 Program']).strip())
-            if str(row['Member 3 Program']).strip(): programs_found.add(str(row['Member 3 Program']).strip())
+            if row.get('Member 1 Program', '').strip(): programs_found.add(row['Member 1 Program'].strip())
+            if row.get('Member 2 Program', '').strip(): programs_found.add(row['Member 2 Program'].strip())
+            if row.get('Member 3 Program', '').strip(): programs_found.add(row['Member 3 Program'].strip())
             
             program_display = ", ".join(sorted(programs_found))
 
             teams_data.append({
-                "name": row['Team Name'], 
-                "program": program_display,  
+                "name": row.get('Team Name', 'Unknown'), 
+                "program": program_display,
                 "members": members_list
             })
             
         return render_template('teams.html', teams=teams_data)
         
     except Exception as e:
-        return f"Error reading sheet. Check column names in Sheet vs Code! <br>Error: {e}"
-
-@app.route('/schedule')
-def schedule():
-    return render_template('schedule.html')
+        return f"Error reading sheet: {e}"
 
 if __name__ == '__main__':
     app.run(debug=True)

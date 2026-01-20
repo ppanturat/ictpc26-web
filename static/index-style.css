@@ -105,10 +105,13 @@
 
 /* --- TEXT LABEL --- */
 .label {
-    font-size: clamp(1.8rem, 2.5vw, 1.8rem);
+    font-size: clamp(1.1rem, 5vw, 1.8rem);
     font-weight: bold;
     margin: 0;
-    line-height: 1;
+    line-height: 1.1;
+
+    word-break: break-word; 
+    hyphens: auto;
 }
 
 /* --- INTERACTION EFFECTS (Invert Colors) --- */

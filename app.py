@@ -31,6 +31,9 @@ def teams():
         response = requests.get(SHEET_URL)
         response.raise_for_status() # Check for download errors
         
+        # Force Python to read the file as UTF-8 (supports Thai, Emoji, etc.)
+        response.encoding = 'utf-8'
+
         # Parse CSV data
         csv_file = io.StringIO(response.text)
         reader = csv.DictReader(csv_file)

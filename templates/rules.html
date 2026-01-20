@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+
+{% block body_class %}theme-black{% endblock %}
+
+{% block header_image %}
+    {{ url_for('static', filename='images/bg-black.png') }}
+{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='rules-style.css') }}">
+{% endblock %}
+
+{% block content %}
+    
+    <div class="layout-wrapper">
+        <a href="{{ url_for('home') }}" class="back-btn">&lt; Back</a>
+    </div>
+
+    <div class="title-box">
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
+        <h1 class="main-title">Rules & Guidelines</h1>
+    </div>
+
+    <div class="rules-grid">
+        
+        <div class="tabs-sidebar">
+            <button class="tab-btn active" onclick="openTab('Team')">Team</button>
+            <button class="tab-btn" onclick="openTab('Guidelines')">Guidelines</button>
+            <button class="tab-btn" onclick="openTab('Competition')">Competition</button>
+            <button class="tab-btn" onclick="openTab('Judgment')">Judgment</button>
+            <button class="tab-btn" onclick="openTab('Ranking')">Ranking</button>
+            <button class="tab-btn" onclick="openTab('Inquiries')">Inquiries</button>
+            <button class="tab-btn" onclick="openTab('Hardware')">Hardware</button>
+            <button class="tab-btn" onclick="openTab('Software')">Software</button>
+            <button class="tab-btn" onclick="openTab('Awards')">Awards</button>
+        </div>
+
+        <div class="right-col">
+            <div class="content-container tab-display">
+                
+                <div id="Team" class="tab-content" style="display: block;">
+                    <h3 class="section-title">Team Requirements</h3>
+                    <p>
+                        Each team must consist of <strong>1 to 3 individuals</strong> from any program or year. 
+                        Participants must be enrolled in the <strong>B.Sc. in ICT</strong> or <strong>B.Sc. in DST</strong> programs.
+                    </p>
+                    <p>
+                        Teams that do not meet this requirement will be <strong>disqualified from ranking</strong>, 
+                        ineligible for rewards, and will <strong>forfeit the right to advance</strong> in the competition. 
+                        However, such teams may still participate <strong>with prior approval</strong> from the competition organizers.
+                    </p>
+                </div>
+
+                <div id="Guidelines" class="tab-content"><p>Coming Soon...</p></div>
+                <div id="Competition" class="tab-content"><p>Coming Soon...</p></div>
+                <div id="Judgment" class="tab-content"><p>Coming Soon...</p></div>
+                <div id="Ranking" class="tab-content"><p>Coming Soon...</p></div>
+                <div id="Inquiries" class="tab-content"><p>Coming Soon...</p></div>
+                <div id="Hardware" class="tab-content"><p>Coming Soon...</p></div>
+                <div id="Software" class="tab-content"><p>Coming Soon...</p></div>
+                <div id="Awards" class="tab-content"><p>Coming Soon...</p></div>
+
+            </div>
+        </div>
+
+        <div class="mobile-nav-controls">
+            <button class="nav-btn prev-btn" onclick="changeTab(-1)">&lt; Previous</button>
+            <button class="nav-btn next-btn" onclick="changeTab(1)">Next &gt;</button>
+        </div>
+
+    </div>
+    
+    <div style="height: 60px;"></div>
+
+    <script>
+        const tabList = ['Team', 'Guidelines', 'Competition', 'Judgment', 'Ranking', 'Inquiries', 'Hardware', 'Software', 'Awards'];
+        let currentIndex = 0;
+
+        function openTab(tabName) {
+            currentIndex = tabList.indexOf(tabName);
+            updateUI();
+        }
+
+        function changeTab(direction) {
+            let newIndex = currentIndex + direction;
+            if (newIndex < 0) return;
+            if (newIndex >= tabList.length) return;
+            currentIndex = newIndex;
+            updateUI();
+        }
+
+        function updateUI() {
+            // Hide all content
+            let contents = document.getElementsByClassName("tab-content");
+            for (let i = 0; i < contents.length; i++) {
+                contents[i].style.display = "none";
+            }
+            // Deactivate sidebar buttons
+            let buttons = document.getElementsByClassName("tab-btn");
+            for (let i = 0; i < buttons.length; i++) {
+                buttons[i].className = buttons[i].className.replace(" active", "");
+            }
+            // Show current content
+            let currentTabName = tabList[currentIndex];
+            if(document.getElementById(currentTabName)) {
+                document.getElementById(currentTabName).style.display = "block";
+            }
+            // Activate button
+            if(buttons[currentIndex]) {
+                buttons[currentIndex].className += " active";
+            }
+
+            // Mobile Button Visibility
+            document.querySelector('.prev-btn').style.visibility = (currentIndex === 0) ? 'hidden' : 'visible';
+            document.querySelector('.next-btn').style.visibility = (currentIndex === tabList.length - 1) ? 'hidden' : 'visible';
+        }
+
+        // Initialize immediately
+        document.addEventListener("DOMContentLoaded", function() {
+            updateUI();
+        });
+    </script>
+{% endblock %}

@@ -11,5 +11,9 @@ def home():
 def about():
     return render_template('about.html')
 
+@app.route('/rules')
+def rules():
+    return render_template('rules.html')
+
 if __name__ == '__main__':
     app.run(debug=True)

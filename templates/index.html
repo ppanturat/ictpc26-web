@@ -20,13 +20,13 @@
             <p class="label">About</p>
         </a>
 
-        <div class="box" id="rules-box">
+        <a href="{{ url_for('rules') }}" class="box" id="rules-box">
             <span class="corner tl"></span><span class="corner tr"></span>
             <span class="corner bl"></span><span class="corner br"></span>
             
             <img class="icon" src="{{ url_for('static', filename='images/icons/rules.svg') }}" alt="Rules">
             <p class="label">Rules</p>
-        </div>
+        </a>
 
         <div class="box" id="teams-box">
             <span class="corner tl"></span><span class="corner tr"></span>
@@ -76,28 +76,29 @@
             <p class="label">Schedule</p>
         </div>
 
-        <div class="box" id="openchat-box">
+        <a href="https://line.me/ti/g2/AswkihiNYWevjxdLcF0wANZjc2bFNKpyooOHsg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" 
+            class="box" id="openchat-box" target="_blank">
             <span class="corner tl"></span><span class="corner tr"></span>
             <span class="corner bl"></span><span class="corner br"></span>
             
             <img class="icon" id="openchat" src="{{ url_for('static', filename='images/icons/openchat.svg') }}" alt="OpenChat">
             <p class="label">OpenChat</p>
-        </div>
+        </a>
 
-        <div class="box" id="ictsa-box">
+        <a href="https://www.instagram.com/smo.muict?igsh=MTQ5ODl4YWR6Y3lubA==" class="box" id="ictsa-box" target="_blank">
             <span class="corner tl"></span><span class="corner tr"></span>
             <span class="corner bl"></span><span class="corner br"></span>
             
             <img class="icon wide-icon" id="ictsa" src="{{ url_for('static', filename='images/icons/ictsa.svg') }}" alt="ICTSA">
             <p class="label">ICTSA</p>
-        </div>
+        </a>
 
-        <div class="box" id="devclub-box">
+        <a href="https://www.instagram.com/muict_devclub?igsh=czF4NGlhNGY0eHJ0" class="box" id="devclub-box" target="_blank">
             <span class="corner tl"></span><span class="corner tr"></span>
             <span class="corner bl"></span><span class="corner br"></span>
             
             <img class="icon" id="devclub" src="{{ url_for('static', filename='images/icons/devclub.svg') }}" alt="Dev Club">
             <p class="label">Dev Club</p>
-        </div>
+        </a>
     </div>
 {% endblock %}

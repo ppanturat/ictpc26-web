@@ -1,0 +1,183 @@
+/* --- COPY OF ABOUT PAGE LAYOUT --- */
+.layout-wrapper {
+    width: 90%;
+    max-width: 880px; 
+    margin: 40px auto 0;
+    text-align: left;
+}
+.layout-wrapper .back-btn { margin: 0; }
+
+/* --- TITLE BOX --- */
+.title-box {
+    width: fit-content;
+    margin: 20px auto 50px;
+    padding: 10px 20px;
+    position: relative;
+    border: 1px solid var(--core-white);
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+}
+
+.main-title {
+    font-size: clamp(32px, 5vw, 45px);
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 17px;
+    letter-spacing: 1px;
+}
+
+/* Corners */
+.corner {
+    position: absolute; width: 8px; height: 8px;
+    border: 1px solid var(--core-white);
+    background-color: var(--core-black);
+    transition: background-color 0.3s;
+}
+.tl { top: -5px; left: -5px; } .tr { top: -5px; right: -5px; }
+.bl { bottom: -5px; left: -5px; } .br { bottom: -5px; right: -5px; }
+
+
+/* --- VERTICAL LAYOUT TAB MENU --- */
+.rules-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    width: 90%;
+    max-width: 880px; 
+    margin: 0 auto;
+    gap: 20px;
+}
+
+/* --- LEFT SIDEBAR --- */
+.tabs-sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    flex-shrink: 0;
+    border-right: none; 
+}
+
+/* Sidebar Buttons */
+.tab-btn {
+    background: none;
+    text-align: center;
+    letter-spacing: 1px;
+    
+    color: var(--core-white);
+    padding: 10px 10px;
+    font-family: 'Google Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    
+    border: 2px solid transparent; 
+}
+
+.tab-btn:hover {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.tab-btn.active {
+    opacity: 1;
+    font-weight: bold;
+    color: var(--core-white);
+    border: 2px solid var(--core-white);
+    background-color: transparent;
+}
+
+/* --- HIDE TABS BY DEFAULT --- */
+.tab-content {
+    display: none; 
+    animation: fadeIn 0.5s;
+    flex-grow: 1;
+}
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+
+.right-col {
+    flex-grow: 1;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- RIGHT CONTENT AREA --- */
+.content-container {
+    flex-grow: 1;
+    
+    /* 70% Opacity Border */
+    border: 2px solid rgba(255, 255, 255, 0.7); 
+    
+    text-align: left;
+    padding: clamp(20px, 4vw, 40px);
+    box-sizing: border-box;
+    background-color: transparent;
+    
+    min-height: 500px;
+}
+
+
+/* --- MOBILE NAVIGATION (Outside the box) --- */
+.mobile-nav-controls {
+    display: none; /* Hidden on Desktop */
+    width: 100%;   
+    
+    /* ALIGNMENT MAGIC: Pushes buttons to far left and far right */
+    justify-content: space-between; 
+    
+    margin-top: 20px; 
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    font-family: 'Google Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.nav-btn:active { transform: scale(0.95); }
+
+/* Previous: Black Bg, White Text */
+.prev-btn {
+    background-color: var(--core-black);
+    color: var(--core-white);
+    border: 1px solid var(--core-white);
+}
+
+/* Next: White Bg, Black Text */
+.next-btn {
+    background-color: var(--core-white);
+    color: var(--core-black);
+    border: 1px solid var(--core-white);
+}
+
+
+/* --- MOBILE RESPONSIVE --- */
+@media (max-width: 768px) {
+    .rules-grid {
+        /* Stack everything vertically */
+        flex-direction: column; 
+    }
+    
+    .tabs-sidebar { display: none; } /* Hide Desktop Menu */
+    
+    .content-container { min-height: 300px; } /* Adjust height for phone */
+    
+    /* Show the Buttons on Mobile */
+    .mobile-nav-controls {
+        display: flex; 
+    }
+}

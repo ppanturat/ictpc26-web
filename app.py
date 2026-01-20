@@ -53,5 +53,9 @@ def teams():
     except Exception as e:
         return f"Error reading sheet. Check column names in Sheet vs Code! <br>Error: {e}"
 
+@app.route('/schedule')
+def schedule():
+    return render_template('schedule.html')
+
 if __name__ == '__main__':
     app.run(debug=True)

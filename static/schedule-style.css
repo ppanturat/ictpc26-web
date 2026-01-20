@@ -1,0 +1,109 @@
+/* --- LAYOUT WRAPPER --- */
+.layout-wrapper {
+    width: 90%;
+    max-width: 900px; /* Matches schedule-container max-width */
+    margin: 40px auto 0;
+    text-align: left;
+}
+.layout-wrapper .back-btn { margin: 0; }
+
+/* --- TITLE BOX --- */
+.title-box {
+    width: fit-content;
+    margin: 20px auto 50px;
+    padding: 10px 40px;
+    position: relative;
+    border: 1px solid var(--core-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+    font-size: clamp(32px, 5vw, 45px);
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+/* Corners */
+.corner {
+    position: absolute; width: 8px; height: 8px;
+    border: 1px solid var(--core-white);
+    background-color: var(--core-black);
+}
+.tl { top: -5px; left: -5px; } .tr { top: -5px; right: -5px; }
+.bl { bottom: -5px; left: -5px; } .br { bottom: -5px; right: -5px; }
+
+
+/* --- SCHEDULE CONTAINER --- */
+.schedule-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+}
+
+/* --- DAY BOXES --- */
+.day-box {
+    border: 1px solid var(--core-white); 
+    padding: clamp(20px, 4vw, 30px);
+    
+    text-align: center; 
+    background-color: transparent; 
+}
+
+.day-title-box {
+    margin-bottom: 30px;
+}
+
+.day-title {
+    margin: 0 0 10px 0;
+    font-size: clamp(24px, 3vw, 32px);
+    font-weight: bold;
+    color: var(--core-white);
+    letter-spacing: 1px;
+}
+
+.day-subtitle {
+    margin: 0;
+    font-size: clamp(14px, 2vw, 16px);
+    color: var(--core-white);
+    opacity: 0.8; 
+}
+
+/* --- TABLE STYLING --- */
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse; 
+    color: var(--core-white);
+    font-size: clamp(14px, 2vw, 16px);
+    table-layout: fixed; 
+}
+
+/* Table Header */
+.schedule-table th {
+    padding: 15px 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 1); 
+    width: 33.3333%; 
+}
+
+/* Table Rows */
+.schedule-table td {
+    padding: 15px 10px;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    word-wrap: break-word; 
+}
+
+/* Remove border from last row */
+.schedule-table tr:last-child td {
+    border-bottom: none;
+}

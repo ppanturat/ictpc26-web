@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block body_class %}theme-black{% endblock %}
+
+{% block header_image %}
+    {{ url_for('static', filename='images/bg-black.png') }}
+{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='schedule-style.css') }}">
+{% endblock %}
+
+{% block content %}
+    
+    <div class="layout-wrapper">
+        <a href="{{ url_for('home') }}" class="back-btn">&lt; Back</a>
+    </div>
+
+    <div class="title-box">
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
+        <h1 class="main-title">Schedule</h1>
+    </div>
+
+    <div class="schedule-container">
+        
+        <div class="day-box">
+            <div class="day-title-box">
+                <h2 class="day-title">Practice Day</h2>
+                <p class="day-subtitle">February DD, 2026 (DoW)</p>
+            </div>
+            
+            <table class="schedule-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Event</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>XX:XX - XX:XX</td>
+                        <td>Registration</td>
+                        <td>Front IT204</td>
+                    </tr>
+                    <tr>
+                        <td>XX:XX - XX:XX</td>
+                        <td>Practice Session</td>
+                        <td>Lab XXX, XXX</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="day-box">
+            <div class="day-title-box">
+                <h2 class="day-title">Competition Day</h2>
+                <p class="day-subtitle">February DD, 2026 (DoW)</p>
+            </div>
+            
+            <table class="schedule-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Event</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>XX:XX - XX:XX</td>
+                        <td>Registration</td>
+                        <td>Front IT204</td>
+                    </tr>
+                    <tr>
+                        <td>XX:XX - XX:XX</td>
+                        <td>Competition Session</td>
+                        <td>Lab 103, 104, 105, 106</td>
+                    </tr>
+                    <tr>
+                        <td>XX:XX - XX:XX</td>
+                        <td>Wrapping Up</td>
+                        <td>IT 204</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    
+    <div style="height: 60px;"></div>
+{% endblock %}

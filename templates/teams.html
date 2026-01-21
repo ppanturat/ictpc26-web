@@ -32,7 +32,7 @@
                 <span class="program">({{ team.program }})</span>
             </h2>
             
-            <p class="member-count">{{ team.members|length }} Members:</p>
+            <p class="member-count">{{ team.members|length }} Member{% if team.members|length != 1 %}s{% endif %}:</p>
             
             <p class="member-ids">
                 {{ team.members|join(', ') }}

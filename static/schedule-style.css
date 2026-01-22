@@ -105,7 +105,7 @@
 
 .schedule-table td:first-child {
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .schedule-table ul {
@@ -153,74 +153,68 @@
 
     /* 3. Style each "Event Row" as a separated Card */
     .schedule-table tr {
-        margin-bottom: 30px; 
+        margin-bottom: 40px; 
         border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
 
     /* 4. Fix the Cells */
     .schedule-table td {
         text-align: center; 
-        padding: 8px 0;    
+        padding: 10px 0;    
         border: none;
-        position: relative; /* Needed for headers */
+        position: relative;
     }
 
-    /* --- ADDING HEADERS BACK (The "Rows" Request) --- */
-    
-    /* Time Label */
-    .schedule-table td:nth-of-type(1)::before {
-        content: "Time"; 
+    /* --- THE TITLE BOX HEADERS (New) --- */
+    /* This styles ALL headers (Time, Event, Location) to look like boxes */
+    .schedule-table td::before {
         display: block;
-        font-size: 0.75em;
-        opacity: 0.6;
-        margin-bottom: 2px;
-    }
-    
-    /* Event Label (Optional - usually obvious, but keeps it consistent) */
-    .schedule-table td:nth-of-type(2)::before {
-        content: "Event";
-        display: block;
-        font-size: 0.75em;
-        opacity: 0.6;
-        margin-bottom: 5px;
+        width: fit-content;       /* Box wraps text tightly */
+        margin: 0 auto 10px auto; /* Center the box */
+        
+        padding-bottom: 4px;        /* Space inside the box */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7); /* The Border */
+        
+        font-size: 0.8rem;     
+        letter-spacing: 2px;
+        font-weight: bold;
+        opacity: 0.9;
     }
 
-    /* Location Label */
-    .schedule-table td:nth-of-type(3)::before {
-        content: "Location";
-        display: block;
-        font-size: 0.75em;
-        opacity: 0.6;
-        margin-bottom: 2px;
-    }
+    /* Inject the names */
+    .schedule-table td:nth-of-type(1)::before { content: "Time"; }
+    .schedule-table td:nth-of-type(2)::before { content: "Event"; }
+    .schedule-table td:nth-of-type(3)::before { content: "Location"; }
 
-    /* --- SPECIFIC STYLING --- */
+
+    /* --- DATA STYLING --- */
 
     /* TIME Data */
     .schedule-table td:first-child {
-        font-size: 1.2em;
+        font-size: 1.3em; /* Slightly larger for emphasis */
         letter-spacing: 1px;
+        font-weight: 600;
+        margin-bottom: 15px; /* Extra space after time */
     }
 
     /* EVENT List Alignment Fix */
     .schedule-table ul {
         padding: 0;
         margin: 0;
-        
-        /* This magic combo keeps the list centered but aligns bullets left */
         display: inline-block; 
         text-align: left;      
     }
 
     .schedule-table li {
-        padding-left: 0; /* Reset padding since we are using inline-block */
+        padding-left: 0;
     }
 
     /* LOCATION Data */
     .schedule-table td:last-child {
         font-weight: bold;
         color: rgba(255, 255, 255, 0.9);
-        font-size: 1em;
+        font-size: 1.1em;
+        margin-top: 10px;
     }
 }

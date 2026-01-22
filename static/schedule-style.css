@@ -79,14 +79,13 @@
     border-collapse: collapse; 
     color: var(--core-white);
     font-size: clamp(14px, 2vw, 16px);
-    table-layout: fixed; 
+    table-layout: fixed; /* Keeps columns equal width */
 }
 
 /* Table Header */
 .schedule-table th {
-    padding: 15px 10px;
-    font-weight: bold;
-    letter-spacing: 1px;
+    padding: 20px 10px;
+    letter-spacing: 2px;
     text-align: center;
     border-bottom: 2px solid rgba(255, 255, 255, 1); 
     width: 33.3333%; 
@@ -94,13 +93,39 @@
 
 /* Table Rows */
 .schedule-table td {
-    padding: 15px 10px;
-    line-height: 1.5;
+    padding: 25px 15px; /* More breathing room */
+    line-height: 1.6;
     text-align: center;
-    vertical-align: middle;
-
-    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    vertical-align: top; /* 'Top' usually looks cleaner for multi-line content */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); /* Thinner lines */
     word-wrap: break-word; 
+}
+
+/* --- INNER CONTENT BEAUTIFICATION --- */
+
+.schedule-table td:first-child {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.schedule-table ul {
+    margin: 0;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.schedule-table li {
+    margin-bottom: 6px;
+    padding-left: 10px;
+}
+
+/* Remarks text */
+.schedule-table p {
+    margin: 12px 0 0 0; 
+    font-size: 0.85em;  
+    opacity: 0.6;       
+    font-style: italic;
+    line-height: 1.4;
 }
 
 /* Remove border from last row */

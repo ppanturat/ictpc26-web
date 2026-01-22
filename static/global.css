@@ -29,11 +29,14 @@ body {
     top: 0; left: 0;
     width: 100%;
     
-    height: min(350px, 60vh); 
+    height: min(400px, 60vh); 
     
     z-index: -1;   
     opacity: 0.25;
     pointer-events: none;
+
+    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
 }
 
 .bg-header img {

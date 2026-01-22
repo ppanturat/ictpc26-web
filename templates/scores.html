@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block body_class %}theme-black{% endblock %}
+
+{% block header_image %}
+    {{ url_for('static', filename='images/bg-black.png') }}
+{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='scores-style.css') }}">
+{% endblock %}
+
+{% block content %}
+
+    <div class="layout-wrapper">
+        <a href="{{ url_for('home') }}" class="back-btn">&lt; Back</a>
+    </div>
+
+    <div class="title-box">
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
+        <h1 class="main-title">Scoreboard</h1>
+    </div>
+
+    <div class="message-container">
+        <h2 class="status-title">Coming Soon...</h2>
+        <p class="status-text">
+            The official scoreboard will be published here<br>
+            after the competition concludes.
+        </p>
+    </div>
+
+{% endblock %}

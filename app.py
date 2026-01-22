@@ -24,6 +24,10 @@ def rules():
 def schedule():
     return render_template('schedule.html')
 
+@app.route('/scores')
+def scores():
+    return render_template('scores.html')
+
 @app.route('/teams')
 def teams():
     try:

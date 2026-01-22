@@ -11,7 +11,7 @@
 .title-box {
     width: fit-content;
     margin: 20px auto 50px;
-    padding: 10px 40px;
+    padding: 10px 23px;
     position: relative;
     border: 1px solid var(--core-white);
     display: flex;

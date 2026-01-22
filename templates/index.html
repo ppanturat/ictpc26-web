@@ -36,37 +36,37 @@
             <p class="label">Teams</p>
         </a>
 
-        <div class="box" id="scores-box">
+        <a href="{{ url_for('scores') }}" class="box" id="scores-box">
             <span class="corner tl"></span><span class="corner tr"></span>
             <span class="corner bl"></span><span class="corner br"></span>
             
             <img class="icon" src="{{ url_for('static', filename='images/icons/scores.svg') }}" alt="Scores">
             <p class="label">Scores</p>
-        </div>
+        </a>
 
-        <div class="box" id="practice-box">
+        <a href="" class="box" id="practice-box" style="display: none;">
             <span class="corner tl"></span><span class="corner tr"></span>
             <span class="corner bl"></span><span class="corner br"></span>
             
             <img class="icon" src="{{ url_for('static', filename='images/icons/practice.svg') }}" alt="Practice">
             <p class="label">Practice</p>
-        </div>
+        </a>
 
-        <div class="box" id="competition-box">
+        <a href="" class="box" id="competition-box" style="display: none;">
             <span class="corner tl"></span><span class="corner tr"></span>
             <span class="corner bl"></span><span class="corner br"></span>
             
             <img class="icon" src="{{ url_for('static', filename='images/icons/competition.svg') }}" alt="Competition">
             <p class="label">Competition</p>
-        </div>
+        </a>
 
-        <div class="box" id="photos-box">
+        <a href="" class="box" id="photos-box" style="display: none;">
             <span class="corner tl"></span><span class="corner tr"></span>
             <span class="corner bl"></span><span class="corner br"></span>
             
             <img class="icon" src="{{ url_for('static', filename='images/icons/photos.svg') }}" alt="Photos">
             <p class="label">Photos</p>
-        </div>
+        </a>
 
         <a href="{{ url_for('schedule') }}" class="box" id="schedule-box">
             <span class="corner tl"></span><span class="corner tr"></span>

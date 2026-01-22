@@ -136,7 +136,6 @@
 /* --- MOBILE RESPONSIVENESS --- */
 @media (max-width: 768px) {
     
-    /* 1. Turn the Table into a Block list */
     .schedule-table, 
     .schedule-table tbody, 
     .schedule-table tr, 
@@ -146,19 +145,16 @@
         box-sizing: border-box;
     }
 
-    /* 2. Hide the Main Table Header */
     .schedule-table thead {
         display: none;
     }
 
-    /* 3. Style each "Event Row" as a separated Card */
     .schedule-table tr {
         margin-bottom: 40px; 
         border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
         padding-bottom: 30px;
     }
 
-    /* 4. Fix the Cells */
     .schedule-table td {
         text-align: center; 
         padding: 10px 0;    
@@ -166,15 +162,14 @@
         position: relative;
     }
 
-    /* --- THE TITLE BOX HEADERS (New) --- */
-    /* This styles ALL headers (Time, Event, Location) to look like boxes */
+    /* --- THE TITLE BOX HEADERS --- */
     .schedule-table td::before {
         display: block;
-        width: fit-content;       /* Box wraps text tightly */
-        margin: 0 auto 10px auto; /* Center the box */
+        width: fit-content;      
+        margin: 0 auto 10px auto; 
         
-        padding-bottom: 4px;        /* Space inside the box */
-        border-bottom: 1px solid rgba(255, 255, 255, 0.7); /* The Border */
+        padding-bottom: 4px;        
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7); 
         
         font-size: 0.8rem;     
         letter-spacing: 2px;
@@ -192,10 +187,10 @@
 
     /* TIME Data */
     .schedule-table td:first-child {
-        font-size: 1.3em; /* Slightly larger for emphasis */
+        font-size: 1.3em; 
         letter-spacing: 1px;
         font-weight: 600;
-        margin-bottom: 15px; /* Extra space after time */
+        margin-bottom: 15px; 
     }
 
     /* EVENT List Alignment Fix */
@@ -216,5 +211,11 @@
         color: rgba(255, 255, 255, 0.9);
         font-size: 1.1em;
         margin-top: 10px;
+    }
+
+    /* Remove border from the last event card */
+    .schedule-table tr:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
     }
 }

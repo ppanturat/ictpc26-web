@@ -93,10 +93,10 @@
 
 /* Table Rows */
 .schedule-table td {
-    padding: 25px 15px; /* More breathing room */
+    padding: 25px 15px; 
     line-height: 1.6;
     text-align: center;
-    vertical-align: top; /* 'Top' usually looks cleaner for multi-line content */
+    vertical-align: top; 
     border-bottom: 1px solid rgba(255, 255, 255, 0.4); /* Thinner lines */
     word-wrap: break-word; 
 }
@@ -131,4 +131,57 @@
 /* Remove border from last row */
 .schedule-table tr:last-child td {
     border-bottom: none;
+}
+
+/* --- MOBILE RESPONSIVENESS --- */
+@media (max-width: 768px) {
+    
+    .schedule-table, 
+    .schedule-table tbody, 
+    .schedule-table tr, 
+    .schedule-table td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box; 
+    }
+
+    .schedule-table thead {
+        display: none;
+    }
+
+    .schedule-table tr {
+        margin-bottom: 30px; 
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Divider line */
+        padding-bottom: 20px;
+    }
+
+    .schedule-table td {
+        text-align: center; 
+        padding: 5px 0;     
+        border: none;       
+    }
+
+    .schedule-table td:first-child {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+        letter-spacing: 1px;
+    }
+
+    .schedule-table ul {
+        padding: 0;
+        text-align: center; 
+        list-style-position: inside;
+    }
+
+    .schedule-table td:last-child {
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 0.9em;
+        margin-top: 5px;
+    }
+    
+    .schedule-table td:last-child::before {
+        content: "📍 ";
+        opacity: 0.8;
+    }
 }

@@ -136,52 +136,91 @@
 /* --- MOBILE RESPONSIVENESS --- */
 @media (max-width: 768px) {
     
+    /* 1. Turn the Table into a Block list */
     .schedule-table, 
     .schedule-table tbody, 
     .schedule-table tr, 
     .schedule-table td {
         display: block;
         width: 100%;
-        box-sizing: border-box; 
+        box-sizing: border-box;
     }
 
+    /* 2. Hide the Main Table Header */
     .schedule-table thead {
         display: none;
     }
 
+    /* 3. Style each "Event Row" as a separated Card */
     .schedule-table tr {
         margin-bottom: 30px; 
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Divider line */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
         padding-bottom: 20px;
     }
 
+    /* 4. Fix the Cells */
     .schedule-table td {
         text-align: center; 
-        padding: 5px 0;     
-        border: none;       
+        padding: 8px 0;    
+        border: none;
+        position: relative; /* Needed for headers */
     }
 
+    /* --- ADDING HEADERS BACK (The "Rows" Request) --- */
+    
+    /* Time Label */
+    .schedule-table td:nth-of-type(1)::before {
+        content: "Time"; 
+        display: block;
+        font-size: 0.75em;
+        opacity: 0.6;
+        margin-bottom: 2px;
+    }
+    
+    /* Event Label (Optional - usually obvious, but keeps it consistent) */
+    .schedule-table td:nth-of-type(2)::before {
+        content: "Event";
+        display: block;
+        font-size: 0.75em;
+        opacity: 0.6;
+        margin-bottom: 5px;
+    }
+
+    /* Location Label */
+    .schedule-table td:nth-of-type(3)::before {
+        content: "Location";
+        display: block;
+        font-size: 0.75em;
+        opacity: 0.6;
+        margin-bottom: 2px;
+    }
+
+    /* --- SPECIFIC STYLING --- */
+
+    /* TIME Data */
     .schedule-table td:first-child {
         font-size: 1.2em;
-        margin-bottom: 5px;
         letter-spacing: 1px;
     }
 
+    /* EVENT List Alignment Fix */
     .schedule-table ul {
         padding: 0;
-        text-align: center; 
-        list-style-position: inside;
+        margin: 0;
+        
+        /* This magic combo keeps the list centered but aligns bullets left */
+        display: inline-block; 
+        text-align: left;      
     }
 
+    .schedule-table li {
+        padding-left: 0; /* Reset padding since we are using inline-block */
+    }
+
+    /* LOCATION Data */
     .schedule-table td:last-child {
         font-weight: bold;
-        color: rgba(255, 255, 255, 0.7);
-        font-size: 0.9em;
-        margin-top: 5px;
-    }
-    
-    .schedule-table td:last-child::before {
-        content: "📍 ";
-        opacity: 0.8;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 1em;
     }
 }

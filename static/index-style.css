@@ -1,7 +1,7 @@
 /* --- HEADER SECTION --- */
 #ict-cup-header {
     margin-top: 30px;
-    font-size: clamp(20px, 4vw, 32px); 
+    font-size: clamp(20px, 4vw, 32px);
 }
 
 .subtitle {
@@ -12,7 +12,7 @@
 }
 
 #ictpc26-wordmark {
-    width: clamp(280px, 80vw, 450px); 
+    width: clamp(280px, 80vw, 450px);
     height: auto;
     margin: 10px auto;
     display: block;
@@ -21,13 +21,13 @@
 /* --- GRID LAYOUT SYSTEM --- */
 .menu-container {
     display: grid;
-    gap: 20px; 
-    
+    gap: 20px;
+
     /* Layout Logic: */
     width: 100%;
-    max-width: 1000px; 
-    margin: 40px auto; 
-    padding: 0 20px 40px; 
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px 40px;
     box-sizing: border-box;
 
     /* Mobile First: 2 Columns */
@@ -50,28 +50,31 @@
 }
 
 /* --- THE BOXES --- */
-.box, a.box {
+.box,
+a.box {
     position: relative;
     border: 1px solid var(--core-white);
-    aspect-ratio: 1 / 1; /* Forces perfect square */
+    aspect-ratio: 1 / 1;
+    /* Forces perfect square */
     width: 100%;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    
-    padding: 12%; /* Responsive padding inside the box */
+
+    padding: 12%;
+    /* Responsive padding inside the box */
     box-sizing: border-box;
     background: transparent;
 
     text-decoration: none;
     color: inherit;
     cursor: pointer;
-    
+
     /* Animation */
-    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
-                background-color 0.2s ease;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+        background-color 0.2s ease;
 }
 
 .box:hover {
@@ -87,20 +90,22 @@
 
 /* --- ICONS --- */
 .icon {
-    width: 45%; 
-    height: auto; 
+    width: 45%;
+    height: auto;
     object-fit: contain;
-    
+
     transition: transform 0.3s ease;
 }
 
-.wide-icon, #ictsa {
-    width: 60%; 
+.wide-icon,
+#ictsa {
+    width: 60%;
     max-height: 40%;
 }
 
-#openchat, #devclub {
-    width: 30%; 
+#openchat,
+#devclub {
+    width: 30%;
 }
 
 /* --- TEXT LABEL --- */
@@ -110,7 +115,7 @@
     margin: 0;
     line-height: 1.1;
 
-    word-break: break-word; 
+    word-break: break-word;
     hyphens: auto;
 }
 
@@ -131,10 +136,25 @@
     transition: background-color 0.2s;
 }
 
-.tl { top: -5px; left: -5px; }
-.tr { top: -5px; right: -5px; }
-.bl { bottom: -5px; left: -5px; }
-.br { bottom: -5px; right: -5px; }
+.tl {
+    top: -5px;
+    left: -5px;
+}
+
+.tr {
+    top: -5px;
+    right: -5px;
+}
+
+.bl {
+    bottom: -5px;
+    left: -5px;
+}
+
+.br {
+    bottom: -5px;
+    right: -5px;
+}
 
 .box:active .corner {
     border-color: var(--core-dark-blue);

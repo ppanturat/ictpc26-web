@@ -3,44 +3,44 @@
 {% block body_class %}theme-black{% endblock %}
 
 {% block header_image %}
-    {{ url_for('static', filename='images/bg-black.png') }}
+{{ url_for('static', filename='images/bg-black.png') }}
 {% endblock %}
 
 {% block style %}
-    <link rel="stylesheet" href="{{ url_for('static', filename='teams-style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='teams-style.css') }}">
 {% endblock %}
 
 {% block content %}
-    
-    <div class="layout-wrapper">
-        <a href="{{ url_for('home') }}" class="back-btn">&lt; Back</a>
-    </div>
 
-    <div class="title-box">
-        <span class="corner tl"></span><span class="corner tr"></span>
-        <span class="corner bl"></span><span class="corner br"></span>
-        
-        <h1 class="main-title">{{ teams|length }} Teams</h1>
-    </div>
+<div class="layout-wrapper">
+    <a href="{{ url_for('home') }}" class="back-btn">&lt; Back</a>
+</div>
 
-    <div class="teams-grid">
-        
-        {% for team in teams %}
-        <div class="team-card">
-            <h2 class="team-name">
-                {{ team.name }} 
-                <span class="program">({{ team.program }})</span>
-            </h2>
-            
-            <p class="member-count">{{ team.members|length }} Member{% if team.members|length != 1 %}s{% endif %}:</p>
-            
-            <p class="member-ids">
-                {{ team.members|join(', ') }}
-            </p>
-        </div>
-        {% endfor %}
+<div class="title-box">
+    <span class="corner tl"></span><span class="corner tr"></span>
+    <span class="corner bl"></span><span class="corner br"></span>
 
+    <h1 class="main-title">{{ teams|length }} Teams</h1>
+</div>
+
+<div class="teams-grid">
+
+    {% for team in teams %}
+    <div class="team-card">
+        <h2 class="team-name">
+            {{ team.name }}
+            <span class="program">({{ team.program }})</span>
+        </h2>
+
+        <p class="member-count">{{ team.members|length }} Member{% if team.members|length != 1 %}s{% endif %}:</p>
+
+        <p class="member-ids">
+            {{ team.members|join(', ') }}
+        </p>
     </div>
-    
-    <div style="height: 60px;"></div>
+    {% endfor %}
+
+</div>
+
+<div style="height: 60px;"></div>
 {% endblock %}

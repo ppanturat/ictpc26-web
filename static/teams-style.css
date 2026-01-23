@@ -1,11 +1,15 @@
 /* --- LAYOUT WRAPPER (Back Button Alignment) --- */
 .layout-wrapper {
     width: 90%;
-    max-width: 1000px; /* Matches grid max-width */
+    max-width: 1000px;
+    /* Matches grid max-width */
     margin: 40px auto 0;
     text-align: left;
 }
-.layout-wrapper .back-btn { margin: 0; }
+
+.layout-wrapper .back-btn {
+    margin: 0;
+}
 
 /* --- TITLE BOX --- */
 .title-box {
@@ -22,18 +26,38 @@
 .main-title {
     font-size: clamp(32px, 5vw, 45px);
     font-weight: bold;
-    letter-spacing: 2px;
+
     margin: 0;
 }
 
 /* Corners */
 .corner {
-    position: absolute; width: 8px; height: 8px;
+    position: absolute;
+    width: 8px;
+    height: 8px;
     border: 1px solid var(--core-white);
     background-color: var(--core-black);
 }
-.tl { top: -5px; left: -5px; } .tr { top: -5px; right: -5px; }
-.bl { bottom: -5px; left: -5px; } .br { bottom: -5px; right: -5px; }
+
+.tl {
+    top: -5px;
+    left: -5px;
+}
+
+.tr {
+    top: -5px;
+    right: -5px;
+}
+
+.bl {
+    bottom: -5px;
+    left: -5px;
+}
+
+.br {
+    bottom: -5px;
+    right: -5px;
+}
 
 
 /* --- TEAMS GRID SYSTEM --- */
@@ -41,24 +65,20 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
-    
     width: 90%;
-    max-width: 1000px; 
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 /* --- INDIVIDUAL TEAM CARD --- */
 .team-card {
     border: 2px solid rgba(255, 255, 255, 0.7);
-    
     background-color: transparent;
     text-align: left;
     padding: 20px;
-    
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: top;
     transition: transform 0.2s ease, background-color 0.2s;
 }
 
@@ -86,12 +106,12 @@
     margin: 0;
     font-size: 0.9rem;
     opacity: 0.6;
-    letter-spacing: 1px;
+
 }
 
 .member-ids {
     margin: 5px 0 0 0;
-    font-family: 'Google Sans', monospace; 
+    font-family: 'Google Sans Code', monospace;
     font-size: 1.1rem;
     color: var(--core-white);
     line-height: 1.4;

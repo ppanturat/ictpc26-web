@@ -5,12 +5,15 @@
     margin: 40px auto 0;
     text-align: left;
 }
-.layout-wrapper .back-btn { margin: 0; }
+
+.layout-wrapper .back-btn {
+    margin: 0;
+}
 
 /* --- TITLE BOX --- */
 .title-box {
     width: fit-content;
-    margin: 20px auto 60px; 
+    margin: 20px auto 60px;
     padding: 10px 23px;
     position: relative;
     border: 1px solid var(--core-white);
@@ -21,19 +24,39 @@
 .main-title {
     font-size: clamp(32px, 5vw, 45px);
     font-weight: bold;
-    letter-spacing: 2px;
+
     margin: 0;
     color: var(--core-white);
 }
 
 /* Corners */
 .corner {
-    position: absolute; width: 8px; height: 8px;
+    position: absolute;
+    width: 8px;
+    height: 8px;
     border: 1px solid var(--core-white);
     background-color: var(--core-black);
 }
-.tl { top: -5px; left: -5px; } .tr { top: -5px; right: -5px; }
-.bl { bottom: -5px; left: -5px; } .br { bottom: -5px; right: -5px; }
+
+.tl {
+    top: -5px;
+    left: -5px;
+}
+
+.tr {
+    top: -5px;
+    right: -5px;
+}
+
+.bl {
+    bottom: -5px;
+    left: -5px;
+}
+
+.br {
+    bottom: -5px;
+    right: -5px;
+}
 
 /* --- MESSAGE CONTAINER --- */
 .message-container {
@@ -47,20 +70,29 @@
     font-size: clamp(24px, 4vw, 32px);
     font-weight: bold;
     margin-bottom: 15px;
-    letter-spacing: 2px;
+
     opacity: 0.9;
 }
 
 .status-text {
     font-size: clamp(16px, 2vw, 18px);
     line-height: 1.6;
-    opacity: 0.7; /* Slightly dimmer text for hierarchy */
+    opacity: 0.7;
+    /* Slightly dimmer text for hierarchy */
     max-width: 600px;
     margin: 0 auto;
+    font-family: "Google Sans Code";
 }
 
 /* Simple Fade In Animation */
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

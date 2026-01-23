@@ -3,103 +3,103 @@
 {% block body_class %}theme-black{% endblock %}
 
 {% block header_image %}
-    {{ url_for('static', filename='images/bg-black.png') }}
+{{ url_for('static', filename='images/bg-black.png') }}
 {% endblock %}
 
 {% block style %}
-    <link rel="stylesheet" href="{{ url_for('static', filename='schedule-style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='schedule-style.css') }}">
 {% endblock %}
 
 {% block content %}
-    
-    <div class="layout-wrapper">
-        <a href="{{ url_for('home') }}" class="back-btn">&lt; Back</a>
-    </div>
 
-    <div class="title-box">
-        <span class="corner tl"></span><span class="corner tr"></span>
-        <span class="corner bl"></span><span class="corner br"></span>
-        <h1 class="main-title">Schedule</h1>
-    </div>
+<div class="layout-wrapper">
+    <a href="{{ url_for('home') }}" class="back-btn">&lt; Back</a>
+</div>
 
-    <div class="schedule-container">
-        
-        <div class="day-box">
-            <div class="day-title-box">
-                <h2 class="day-title">Practice Day</h2>
-                <p class="day-subtitle">February 3, 2026 (Tuesday)</p>
-            </div>
-            
-            <table class="schedule-table">
-                <thead>
-                    <tr>
-                        <th>Time</th>
-                        <th>Event</th>
-                        <th>Location</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>16:00 - 17:00</td>
-                        <td>
-                            <ul>
-                                <li>Registration</li>
-                                <li>Competition Rules and Details</li>
-                            </ul>
-                            <p>Remarks: Participant attendance is encouraged but not required</p>
-                        </td>
-                        <td>IT204</td>
-                    </tr>
-                    <tr>
-                        <td>17:00 - 19:00</td>
-                        <td>Practice Session</td>
-                        <td>Lab 104</td>
-                    </tr>
-                </tbody>
-            </table>
+<div class="title-box">
+    <span class="corner tl"></span><span class="corner tr"></span>
+    <span class="corner bl"></span><span class="corner br"></span>
+    <h1 class="main-title">Schedule</h1>
+</div>
+
+<div class="schedule-container">
+
+    <div class="day-box">
+        <div class="day-title-box">
+            <h2 class="day-title">Practice Day</h2>
+            <p class="day-subtitle">February 3, 2026 (Tuesday)</p>
         </div>
 
-        <div class="day-box">
-            <div class="day-title-box">
-                <h2 class="day-title">Competition Day</h2>
-                <p class="day-subtitle">February 4, 2026 (Wednesday)</p>
-            </div>
-            
-            <table class="schedule-table">
-                <thead>
-                    <tr>
-                        <th>Time</th>
-                        <th>Event</th>
-                        <th>Location</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>14:00 - 15:00</td>
-                        <td>
-                            <ul>
-                                <li>Registration</li>
-                                <li>Competition Rules and Details</li>
-                            </ul>
-                            <p>Remarks: Registration closes at 15:30</p>
-                        </td>
-                        <td>IT204</td>
-                    </tr>
-                    <tr>
-                        <td>15:00 - 18:00</td>
-                        <td>Competition Session</td>
-                        <td>Lab 103, 104, 105, 106</td>
-                    </tr>
-                    <tr>
-                        <td>18:00 - 18:45</td>
-                        <td>Awards and Closing Ceremony</td>
-                        <td>IT 204</td>
-                    </tr>
-                </tbody>
-            </table>
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Event</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>16:00 - 17:00</td>
+                    <td>
+                        <ul>
+                            <li>Registration</li>
+                            <li>Competition Rules and Details</li>
+                        </ul>
+                        <p>Remarks: Participant attendance is encouraged but not required</p>
+                    </td>
+                    <td>IT204</td>
+                </tr>
+                <tr>
+                    <td>17:00 - 19:00</td>
+                    <td>Practice Session</td>
+                    <td>Lab 104</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="day-box">
+        <div class="day-title-box">
+            <h2 class="day-title">Competition Day</h2>
+            <p class="day-subtitle">February 4, 2026 (Wednesday)</p>
         </div>
 
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Event</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>14:00 - 15:00</td>
+                    <td>
+                        <ul>
+                            <li>Registration</li>
+                            <li>Competition Rules and Details</li>
+                        </ul>
+                        <p>Remarks: Registration closes at 15:30</p>
+                    </td>
+                    <td>IT204</td>
+                </tr>
+                <tr>
+                    <td>15:00 - 18:00</td>
+                    <td>Competition Session</td>
+                    <td>Lab 103, 104, 105, 106</td>
+                </tr>
+                <tr>
+                    <td>18:00 - 18:45</td>
+                    <td>Awards and Closing Ceremony</td>
+                    <td>IT 204</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-    
-    <div style="height: 60px;"></div>
+
+</div>
+
+<div style="height: 60px;"></div>
 {% endblock %}

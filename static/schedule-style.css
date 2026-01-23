@@ -1,11 +1,15 @@
 /* --- LAYOUT WRAPPER --- */
 .layout-wrapper {
     width: 90%;
-    max-width: 900px; /* Matches schedule-container max-width */
+    max-width: 900px;
+    /* Matches schedule-container max-width */
     margin: 40px auto 0;
     text-align: left;
 }
-.layout-wrapper .back-btn { margin: 0; }
+
+.layout-wrapper .back-btn {
+    margin: 0;
+}
 
 /* --- TITLE BOX --- */
 .title-box {
@@ -21,18 +25,38 @@
 .main-title {
     font-size: clamp(32px, 5vw, 45px);
     font-weight: bold;
-    letter-spacing: 2px;
+
     margin: 0;
 }
 
 /* Corners */
 .corner {
-    position: absolute; width: 8px; height: 8px;
+    position: absolute;
+    width: 8px;
+    height: 8px;
     border: 1px solid var(--core-white);
     background-color: var(--core-black);
 }
-.tl { top: -5px; left: -5px; } .tr { top: -5px; right: -5px; }
-.bl { bottom: -5px; left: -5px; } .br { bottom: -5px; right: -5px; }
+
+.tl {
+    top: -5px;
+    left: -5px;
+}
+
+.tr {
+    top: -5px;
+    right: -5px;
+}
+
+.bl {
+    bottom: -5px;
+    left: -5px;
+}
+
+.br {
+    bottom: -5px;
+    right: -5px;
+}
 
 
 /* --- SCHEDULE CONTAINER --- */
@@ -42,16 +66,16 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 40px; 
+    gap: 40px;
 }
 
 /* --- DAY BOXES --- */
 .day-box {
-    border: 1px solid var(--core-white); 
+    border: 1px solid var(--core-white);
     padding: clamp(20px, 4vw, 30px);
-    
-    text-align: center; 
-    background-color: transparent; 
+
+    text-align: center;
+    background-color: transparent;
 }
 
 .day-title-box {
@@ -63,42 +87,44 @@
     font-size: clamp(24px, 3vw, 32px);
     font-weight: bold;
     color: var(--core-white);
-    letter-spacing: 1px;
+
 }
 
 .day-subtitle {
     margin: 0;
     font-size: clamp(14px, 2vw, 16px);
     color: var(--core-white);
-    opacity: 0.8; 
+    opacity: 0.8;
 }
 
 /* --- TABLE STYLING --- */
 .schedule-table {
     width: 100%;
-    border-collapse: collapse; 
+    border-collapse: collapse;
     color: var(--core-white);
     font-size: clamp(14px, 2vw, 16px);
-    table-layout: fixed; /* Keeps columns equal width */
+    table-layout: fixed;
+    /* Keeps columns equal width */
 }
 
 /* Table Header */
 .schedule-table th {
     padding: 20px 10px;
-    letter-spacing: 2px;
+
     text-align: center;
-    border-bottom: 2px solid rgba(255, 255, 255, 1); 
-    width: 33.3333%; 
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+    width: 33.3333%;
 }
 
 /* Table Rows */
 .schedule-table td {
-    padding: 25px 15px; 
+    padding: 25px 15px;
     line-height: 1.6;
     text-align: center;
-    vertical-align: top; 
-    border-bottom: 1px solid rgba(255, 255, 255, 0.4); /* Thinner lines */
-    word-wrap: break-word; 
+    vertical-align: top;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    /* Thinner lines */
+    word-wrap: break-word;
 }
 
 /* --- INNER CONTENT BEAUTIFICATION --- */
@@ -121,9 +147,9 @@
 
 /* Remarks text */
 .schedule-table p {
-    margin: 12px 0 0 0; 
-    font-size: 0.85em;  
-    opacity: 0.6;       
+    margin: 12px 0 0 0;
+    font-size: 0.85em;
+    opacity: 0.6;
     font-style: italic;
     line-height: 1.4;
 }
@@ -135,10 +161,10 @@
 
 /* --- MOBILE RESPONSIVENESS --- */
 @media (max-width: 768px) {
-    
-    .schedule-table, 
-    .schedule-table tbody, 
-    .schedule-table tr, 
+
+    .schedule-table,
+    .schedule-table tbody,
+    .schedule-table tr,
     .schedule-table td {
         display: block;
         width: 100%;
@@ -150,14 +176,14 @@
     }
 
     .schedule-table tr {
-        margin-bottom: 40px; 
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+        margin-bottom: 40px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
         padding-bottom: 30px;
     }
 
     .schedule-table td {
-        text-align: center; 
-        padding: 10px 0;    
+        text-align: center;
+        padding: 10px 0;
         border: none;
         position: relative;
     }
@@ -165,40 +191,48 @@
     /* --- THE TITLE BOX HEADERS --- */
     .schedule-table td::before {
         display: block;
-        width: fit-content;      
-        margin: 0 auto 10px auto; 
-        
-        padding-bottom: 4px;        
-        border-bottom: 1px solid rgba(255, 255, 255, 0.7); 
-        
-        font-size: 0.8rem;     
-        letter-spacing: 2px;
+        width: fit-content;
+        margin: 0 auto 10px auto;
+
+        padding-bottom: 4px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+
+        font-size: 0.8rem;
+
         font-weight: bold;
         opacity: 0.9;
     }
 
     /* Inject the names */
-    .schedule-table td:nth-of-type(1)::before { content: "Time"; }
-    .schedule-table td:nth-of-type(2)::before { content: "Event"; }
-    .schedule-table td:nth-of-type(3)::before { content: "Location"; }
+    .schedule-table td:nth-of-type(1)::before {
+        content: "Time";
+    }
+
+    .schedule-table td:nth-of-type(2)::before {
+        content: "Event";
+    }
+
+    .schedule-table td:nth-of-type(3)::before {
+        content: "Location";
+    }
 
 
     /* --- DATA STYLING --- */
 
     /* TIME Data */
     .schedule-table td:first-child {
-        font-size: 1.3em; 
-        letter-spacing: 1px;
+        font-size: 1.3em;
+
         font-weight: 600;
-        margin-bottom: 15px; 
+        margin-bottom: 15px;
     }
 
     /* EVENT List Alignment Fix */
     .schedule-table ul {
         padding: 0;
         margin: 0;
-        display: inline-block; 
-        text-align: left;      
+        display: inline-block;
+        text-align: left;
     }
 
     .schedule-table li {

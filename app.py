@@ -79,6 +79,9 @@ def teams():
                 }
             )
 
+        # Sort the teams (A-Z)
+        teams_data = sorted(teams_data, key=lambda x: x['name'].lower())
+
         return render_template("teams.html", teams=teams_data)
 
     except Exception as e:

@@ -29,7 +29,6 @@
 .main-title {
     font-size: clamp(32px, 5vw, 45px);
     font-weight: bold;
-
     margin: 0;
 }
 
@@ -62,7 +61,10 @@ p {
     line-height: 1.6;
     margin-bottom: 15px;
     font-size: clamp(14px, 2vw, 16px);
-    opacity: 0.9;
+}
+
+.content-container p:last-child {
+    margin-bottom: 0;
 }
 
 /* --- CORNERS --- */
@@ -71,7 +73,6 @@ p {
     width: 8px;
     height: 8px;
     border: 1px solid var(--core-white);
-
     background-color: var(--core-black);
     transition: background-color 0.3s;
 }

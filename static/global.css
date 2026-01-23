@@ -94,11 +94,11 @@ nav {
 }
 
 .track-left {
-  animation: scroll-left 10s linear infinite;
+  animation: scroll-left 20s linear infinite;
 }
 
 .track-right {
-  animation: scroll-right 10s linear infinite;
+  animation: scroll-right 20s linear infinite;
 }
 
 @keyframes scroll-left {

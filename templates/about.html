@@ -13,7 +13,9 @@
 {% block content %}
 
 <div class="layout-wrapper">
-    <a href="{{ url_for('home') }}" class="back-btn">&lt; Back</a>
+    <a href="{{ url_for('home') }}" class="back-btn">
+        <img class="icon" src="{{ url_for('static', filename='images/icons/arrow_back.svg') }}" alt="Register Now!">
+        Back</a>
 </div>
 
 <div class="title-box">
@@ -32,7 +34,7 @@
 </div>
 
 <div class="content-container">
-    <h2 class="section-title">About ICTPC26 and MUICT Dev Club</h2>
+    <h2 class="section-title">About ICTPC26 and Dev Club</h2>
     <p>
         <strong><em>ICTPC (ICT Programming Competition)</strong></em> is inspired by the ICPC, which is the world's
         oldest,
@@ -44,7 +46,7 @@
         build the computational thinking skills needed for future courses and bigger stages, including ICPC!
     </p>
     <p>
-        <strong><em>MUICT Dev Club</strong></em>, in association with the Faculty of Information and Communication
+        <strong><em>Dev Club</strong></em>, in association with the Faculty of Information and Communication
         Technology, Mahidol
         University,
         is a student club under the Faculty of ICT at Mahidol University. It serves as a hub and learning space

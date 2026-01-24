@@ -1,3 +1,99 @@
+a > .label {
+    text-align: left;
+}
+
+.menu-container-flexbox {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px 40px;
+    /* box-sizing: border-box; */
+}
+
+#register {
+    border-color: var(--ictpc-bright-blue);
+    background-color: var(--core-white);
+    color: var(--ictpc-bright-blue);
+}
+
+/* 
+#register .half-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+#register .half-section {
+    display: flex;
+    justify-content: flex-start;
+} */
+
+#register .half-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.reg-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#register .icon {
+    width: 80%;
+}
+
+#register .label {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+#register .label:last-child {
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 0;
+    line-height: normal;
+}
+
+.cta-box,
+a.cta-box,
+.spanning-flexboxes,
+a.spanning-flexboxes {
+    padding: 1.5rem;
+    position: relative;
+    border: 2px solid var(--core-white);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* box-sizing: border-box; */
+    background: transparent;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+        background-color 0.2s ease;
+}
+
+.cta-box:hover,
+.spanning-flexboxes:hover {
+    transform: translateY(-8px);
+}
+
+.cta-box:active,
+.spanning-flexboxes:active {
+    transform: translateY(-2px) scale(0.98);
+    background-color: var(--core-white);
+    border-color: var(--ictpc-bright-blue);
+    transition: transform 0.05s ease;
+}
+
 /* --- HEADER SECTION --- */
 #ict-cup-header {
     margin-top: 30px;
@@ -8,7 +104,6 @@
     margin: 0 auto 40px;
     padding: 0 20px;
     font-size: clamp(14px, 2vw, 16px);
-
 }
 
 #ictpc26-wordmark {
@@ -22,19 +117,14 @@
 .menu-container {
     display: grid;
     gap: 20px;
-
-    /* Layout Logic: */
     width: 100%;
     max-width: 1000px;
     margin: 40px auto;
     padding: 0 20px 40px;
-    box-sizing: border-box;
-
-    /* Mobile First: 2 Columns */
+    /* box-sizing: border-box; */
     grid-template-columns: repeat(2, 1fr);
 }
 
-/* Tablet: 3 Columns */
 @media (min-width: 600px) {
     .menu-container {
         gap: 30px;
@@ -42,37 +132,29 @@
     }
 }
 
-/* Desktop: 4 Columns */
 @media (min-width: 900px) {
     .menu-container {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
-/* --- THE BOXES --- */
+/* --- BOXES --- */
 .box,
 a.box {
     position: relative;
-    border: 1px solid var(--core-white);
+    border: 2px solid var(--core-white);
     aspect-ratio: 1 / 1;
-    /* Forces perfect square */
     width: 100%;
-
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
-
     padding: 12%;
-    /* Responsive padding inside the box */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     background: transparent;
-
     text-decoration: none;
     color: inherit;
     cursor: pointer;
-
-    /* Animation */
     transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
         background-color 0.2s ease;
 }
@@ -84,21 +166,18 @@ a.box {
 .box:active {
     transform: translateY(-2px) scale(0.98);
     background-color: var(--core-white);
-    border-color: var(--core-dark-blue);
+    border-color: var(--ictpc-bright-blue);
     transition: transform 0.05s ease;
 }
 
 /* --- ICONS --- */
 .icon {
     width: 45%;
-    height: auto;
-    object-fit: contain;
-
     transition: transform 0.3s ease;
 }
 
 .wide-icon,
-#ictsa {
+#smo {
     width: 60%;
     max-height: 40%;
 }
@@ -110,20 +189,24 @@ a.box {
 
 /* --- TEXT LABEL --- */
 .label {
-    font-size: clamp(1.1rem, 5vw, 1.8rem);
+    font-size: clamp(1.5rem, 1.7rem, 2rem);
     font-weight: bold;
     margin: 0;
-    line-height: 1.1;
-
+    line-height: 1.0;
     word-break: break-word;
     hyphens: auto;
 }
 
-/* --- INTERACTION EFFECTS (Invert Colors) --- */
+/* --- INTERACTION EFFECTS --- */
 .box:active .icon,
-.box:active .label {
-    /* This filter turns white to dark blue */
-    filter: brightness(0) saturate(100%) invert(13%) sepia(96%) saturate(4422%) hue-rotate(228deg) brightness(90%) contrast(101%);
+.box:active .label,
+.cta-box:active .icon,
+.cta-box:active .label,
+#practice-ictpc25:active .icon,
+#practice-ictpc25:active .label,
+#competition-ictpc25:active .icon,
+#competition-ictpc25:active .label {
+    filter: brightness(0) saturate(100%) invert(12%) sepia(80%) saturate(5500%) hue-rotate(235deg) brightness(88%) contrast(101%);
 }
 
 /* --- CORNER DECORATION --- */
@@ -156,7 +239,174 @@ a.box {
     right: -5px;
 }
 
-.box:active .corner {
-    border-color: var(--core-dark-blue);
+.box:active .corner,
+.cta-box:active .corner {
+    border-color: var(--ictpc-bright-blue);
     background-color: var(--core-white);
+}
+
+.menu-container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 500px) {
+    .menu-container > .spanning-flexboxes {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+}
+
+/* GLOW */
+.menu-container .box,
+.menu-container .spanning-flexboxes {
+    --x-px: calc(var(--x) * 1px);
+    --y-px: calc(var(--y) * 1px);
+}
+
+.menu-container .box:before,
+.menu-container .box:after,
+.menu-container .spanning-flexboxes:before,
+.menu-container .spanning-flexboxes:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    border-radius: inherit;
+    background: radial-gradient(1000px circle at var(--x-px) var(--y-px),
+            rgba(255, 255, 255, 0.15),
+            transparent 20%);
+    pointer-events: none;
+}
+
+.menu-container .box:before,
+.menu-container .spanning-flexboxes:before {
+    z-index: 1;
+}
+
+.menu-container .box:after,
+.menu-container .spanning-flexboxes:after {
+    opacity: 0;
+    z-index: 2;
+    transition: opacity 0.5s ease;
+}
+
+.menu-container .box:hover:after,
+.menu-container .spanning-flexboxes:hover:after {
+    opacity: 1;
+}
+
+/* ICTPC25 BOXES */
+.menu-container.ictpc25 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ictpc25 > a {
+    display: flex;
+    aspect-ratio: auto;
+}
+
+.ictpc25 > a .label {
+    margin: 0 !important;
+}
+
+.ictpc25 > a > img {
+    width: 18%;
+}
+
+.menu-container.ictpc25 .spanning-flexboxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media (max-width: 599px) {
+    .menu-container.ictpc25 {
+        grid-template-columns: 1fr !important;
+    }
+
+    .menu-container.ictpc25 .spanning-flexboxes {
+        img {
+            width: 10% !important;
+        }
+
+        aspect-ratio: auto !important;
+    }
+
+    .menu-container.ictpc25 .spanning-flexboxes .label {
+        font-size: 0;
+    }
+
+    .menu-container.ictpc25 .spanning-flexboxes .label::after {
+        content: "ICTPC25 Practice";
+        font-size: clamp(1.5rem, 1.7rem, 2rem);
+        display: block;
+    }
+
+    #competition-ictpc25 .label::after {
+        content: "ICTPC25 Competition";
+    }
+}
+
+/* COUNTDOWN TIMER */
+#register-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#countdown-container {
+    text-align: center;
+    border-left: 1px solid var(--ictpc-bright-blue);
+    padding-left: 5%;
+    margin-left: auto;
+}
+
+#countdown-container #timer {
+    font-family: "Google Sans Code";
+    font-weight: 600;
+    font-size: clamp(1.2rem, 1.8rem, 2rem) !important;
+    color: var(--ictpc-bright-blue);
+}
+
+#register .half-section {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 599px) {
+    #register-content {
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    #countdown-container {
+        border-left: none;
+        border-top: 1px solid var(--ictpc-bright-blue);
+        padding-top: 1rem;
+        padding-left: 0;
+        margin-left: 0;
+        width: 90%;
+    }
+
+    #register .label {
+        font-size: 1.8rem;
+    }
+
+    #timer {
+        margin-left: 0;
+        font-size: 1.5rem !important;
+    }
+
+    #register .icon {
+        width: 120%;
+    }
 }

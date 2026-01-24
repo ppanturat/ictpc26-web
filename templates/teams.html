@@ -13,7 +13,9 @@
 {% block content %}
 
 <div class="layout-wrapper">
-    <a href="{{ url_for('home') }}" class="back-btn">&lt; Back</a>
+    <a href="{{ url_for('home') }}" class="back-btn">
+        <img class="icon" src="{{ url_for('static', filename='images/icons/arrow_back.svg') }}" alt="Register Now!">
+        Back</a>
 </div>
 
 <div class="title-box">

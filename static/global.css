@@ -11,7 +11,6 @@ body {
   text-align: center;
   font-family: "Google Sans", sans-serif;
   color: var(--core-white);
-
   overflow-x: hidden;
 }
 
@@ -30,13 +29,10 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-
   height: min(400px, 60vh);
-
   z-index: -1;
   opacity: 0.25;
   pointer-events: none;
-
   -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
 }
@@ -94,11 +90,11 @@ nav {
 }
 
 .track-left {
-  animation: scroll-left 20s linear infinite;
+  animation: scroll-left 30s linear infinite;
 }
 
 .track-right {
-  animation: scroll-right 20s linear infinite;
+  animation: scroll-right 30s linear infinite;
 }
 
 @keyframes scroll-left {

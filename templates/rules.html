@@ -13,7 +13,9 @@
 {% block content %}
 
 <div class="layout-wrapper">
-    <a href="{{ url_for('home') }}" class="back-btn">&lt; Back</a>
+    <a href="{{ url_for('home') }}" class="back-btn">
+        <img class="icon" src="{{ url_for('static', filename='images/icons/arrow_back.svg') }}" alt="Register Now!">
+        Back</a>
 </div>
 
 <div class="title-box">
@@ -71,7 +73,8 @@
                 <h4><strong>2. Allowed Items</strong></h4>
                 <p>
                     Teams may bring stationery (pens, pencils, erasers, rulers, protractors, etc.).
-                    <strong>Candy</strong> is the only food allowed. Sweaters, jackets, coats, and hoodies are also allowed.
+                    <strong>Candy</strong> is the only food allowed. Sweaters, jackets, coats, and hoodies are also
+                    allowed.
                     Mascot dolls, <em>yadom</em> (inhalers), or one English-to-Thai dictionary are permitted but will be
                     <strong>inspected</strong> before the session.
                 </p>
@@ -122,7 +125,7 @@
                     judges.
                     Judges will test programs using a secret set of test data.
                 </p>
-                <p><strong>Rejected Runs</strong></p>
+                <h4><strong>Rejected Runs</strong></h4>
                 <ul>
                     <li><strong>Runtime Error:</strong> Program crashed.</li>
                     <li><strong>Time Limit Exceeded:</strong> Program took too long.</li>
@@ -130,8 +133,9 @@
                         whitespace).
                     </li>
                 </ul>
+                <h4><strong>Clarifications</strong></h4>
                 <p>
-                    <strong>Clarifications:</strong> Contestants may submit claims of ambiguity via the DOMjudge
+                    Contestants may submit claims of ambiguity via the DOMjudge
                     system.
                     Judges' decisions are final.
                 </p>

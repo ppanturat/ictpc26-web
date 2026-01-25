@@ -374,6 +374,7 @@ a.box {
     font-weight: 600;
     font-size: clamp(1.2rem, 1.8rem, 2rem) !important;
     color: var(--ictpc-bright-blue);
+    letter-spacing: -1.5px;
 }
 
 #register .half-section {

@@ -215,7 +215,7 @@ a.box {
     position: absolute;
     width: 8px;
     height: 8px;
-    border: 1px solid var(--core-white);
+    border: 1.75px solid var(--core-white);
     background-color: var(--ictpc-bright-blue);
     transition: background-color 0.2s;
 }

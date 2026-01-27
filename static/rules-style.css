@@ -1,3 +1,7 @@
+a {
+    color: var(--core-white);
+}
+
 /* --- COPY OF ABOUT PAGE LAYOUT --- */
 .layout-wrapper {
     width: 90%;

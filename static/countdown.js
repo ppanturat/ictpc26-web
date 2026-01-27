@@ -5,6 +5,7 @@ function updateCountdown() {
 
     if (diff <= 0) {
         document.getElementById("timer").innerHTML = "CLOSED"
+        document.getElementById("join-now").innerHTML = "Time's Up"
         return
     }
 

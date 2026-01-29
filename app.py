@@ -54,11 +54,11 @@ def teams():
             # --- Collect Members ---
             members_list = []
             if row.get("Member 1 ID", "").strip():
-                members_list.append(row["Member 1 ID"].strip())
+                members_list.append(row["Member 1 ID"].strip("u "))
             if row.get("Member 2 ID", "").strip():
-                members_list.append(row["Member 2 ID"].strip())
+                members_list.append(row["Member 2 ID"].strip("u "))
             if row.get("Member 3 ID", "").strip():
-                members_list.append(row["Member 3 ID"].strip())
+                members_list.append(row["Member 3 ID"].strip("u "))
 
             # --- Calculate Program ---
             programs_found = set()

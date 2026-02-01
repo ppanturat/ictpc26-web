@@ -14,7 +14,7 @@
 
 <div class="layout-wrapper">
     <a href="{{ url_for('home') }}" class="back-btn">
-        <img class="icon" src="{{ url_for('static', filename='images/icons/arrow_back.svg') }}" alt="Register Now!">
+        <img class="icon" src="{{ url_for('static', filename='images/icons/arrow_back.svg') }}" alt="Go back">
         Back</a>
 </div>
 
@@ -216,8 +216,12 @@
     </div>
 
     <div class="mobile-nav-controls">
-        <button class="nav-btn prev-btn" onclick="changeTab(-1)">&lt; Previous</button>
-        <button class="nav-btn next-btn" onclick="changeTab(1)">Next &gt;</button>
+        <button class="nav-btn prev-btn" onclick="changeTab(-1)" style="display: flex; align-items: center;"><img
+                class="icon" src="{{ url_for('static', filename='images/icons/arrow_back.svg') }}" alt="Go back"
+                style="filter: brightness(9) saturate(0);"> Previous</button>
+        <button class="nav-btn next-btn" onclick="changeTab(1)" style="display: flex; align-items: center;">Next <img
+                class="icon" src="{{ url_for('static', filename='images/icons/arrow_back.svg') }}" alt="Go back"
+                style="transform: scaleX(-1);"></button>
     </div>
 
 </div>

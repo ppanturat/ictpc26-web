@@ -1,0 +1,3854 @@
+{
+    "submissions": {
+        "team-dj-7": {
+            "problem-Problem-A": [
+                {
+                    "time": "10:49",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [
+                {
+                    "time": "09:16",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "11:57",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "09:59",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [
+                {
+                    "time": "11:43",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "10:18",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [
+                {
+                    "time": "11:29",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:27",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "10:32",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "10:10",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "09:27",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [
+                {
+                    "time": "09:35",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:34",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-Z": []
+        },
+        "team-dj-46": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [
+                {
+                    "time": "10:42",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-F": [
+                {
+                    "time": "10:26",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "09:34",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:32",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "10:56",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:54",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [
+                {
+                    "time": "10:06",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "11:18",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [
+                {
+                    "time": "11:34",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:25",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [
+                {
+                    "time": "12:07",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_queued\u0022\u003Etoo-late\u003C\/span\u003E"
+                },
+                {
+                    "time": "12:03",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "12:02",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "12:02",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "12:01",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:53",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:50",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "09:46",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:39",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "09:53",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "09:23",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-22": {
+            "problem-Problem-A": [
+                {
+                    "time": "09:58",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:53",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:25",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:20",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [
+                {
+                    "time": "10:32",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:55",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:51",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [
+                {
+                    "time": "10:17",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "10:24",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "10:52",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [
+                {
+                    "time": "10:29",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "10:41",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [
+                {
+                    "time": "11:01",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-P": [
+                {
+                    "time": "12:04",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:48",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "10:46",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [
+                {
+                    "time": "09:52",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:38",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [
+                {
+                    "time": "12:05",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_queued\u0022\u003Etoo-late\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:43",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:42",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:40",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:39",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:36",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:22",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:20",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:17",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": [
+                {
+                    "time": "12:04",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ]
+        },
+        "team-dj-17": {
+            "problem-Problem-A": [
+                {
+                    "time": "09:21",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [
+                {
+                    "time": "11:41",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:09",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:01",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [
+                {
+                    "time": "10:25",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:24",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "10:44",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "11:36",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:35",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [
+                {
+                    "time": "10:18",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:16",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "09:34",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:31",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [
+                {
+                    "time": "12:02",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "11:24",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:22",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "10:56",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "10:31",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:29",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-32": {
+            "problem-Problem-A": [
+                {
+                    "time": "10:55",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [
+                {
+                    "time": "11:57",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [
+                {
+                    "time": "11:38",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:16",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:03",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:53",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-F": [
+                {
+                    "time": "10:10",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-G": [
+                {
+                    "time": "11:22",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "12:04",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:35",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:12",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "10:33",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [
+                {
+                    "time": "11:58",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:03",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:58",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:20",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [
+                {
+                    "time": "11:12",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [
+                {
+                    "time": "11:38",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "11:02",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "10:15",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "09:59",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:57",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:54",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:40",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-26": {
+            "problem-Problem-A": [
+                {
+                    "time": "10:02",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [
+                {
+                    "time": "12:02",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "09:28",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "11:49",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [
+                {
+                    "time": "11:27",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "10:15",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:07",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [
+                {
+                    "time": "11:41",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "10:40",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [
+                {
+                    "time": "11:51",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:29",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:35",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-33": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "09:49",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:45",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "11:16",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [
+                {
+                    "time": "10:27",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "11:37",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:47",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:39",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [
+                {
+                    "time": "11:44",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "10:10",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "11:52",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "09:32",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:30",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-30": {
+            "problem-Problem-A": [
+                {
+                    "time": "09:39",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:32",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:31",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [
+                {
+                    "time": "12:04",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "12:03",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "10:11",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "11:58",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:57",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:54",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [
+                {
+                    "time": "10:41",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [
+                {
+                    "time": "11:24",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [
+                {
+                    "time": "11:30",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:25",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:05",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:02",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:58",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:56",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "09:53",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "11:38",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "10:53",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:51",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-8": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [
+                {
+                    "time": "11:52",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [
+                {
+                    "time": "11:56",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "11:59",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:43",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [
+                {
+                    "time": "10:16",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:59",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [
+                {
+                    "time": "11:28",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-R": [
+                {
+                    "time": "09:30",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "11:13",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "10:37",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:33",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "10:19",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:18",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:17",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:09",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:06",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:05",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:03",
+                    "language": "cpp",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-10": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [
+                {
+                    "time": "09:47",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:45",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:43",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:33",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "10:06",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:51",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "12:00",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:55",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:34",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [
+                {
+                    "time": "10:40",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "11:21",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:12",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:54",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [
+                {
+                    "time": "11:46",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "10:45",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:23",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "10:20",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "09:41",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-42": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [
+                {
+                    "time": "12:03",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:14",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:13",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:07",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:05",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "09:56",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "11:26",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [
+                {
+                    "time": "11:31",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:29",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "12:02",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "12:01",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [
+                {
+                    "time": "11:48",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:42",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "10:01",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [
+                {
+                    "time": "09:40",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:40",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:35",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:34",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:33",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:33",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-44": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "10:42",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [
+                {
+                    "time": "10:12",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [
+                {
+                    "time": "11:45",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "11:33",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "12:07",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_queued\u0022\u003Etoo-late\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:06",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "09:39",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-48": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [
+                {
+                    "time": "11:54",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "11:30",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [
+                {
+                    "time": "09:28",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "10:27",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "10:58",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "12:05",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_queued\u0022\u003Etoo-late\u003C\/span\u003E"
+                },
+                {
+                    "time": "12:04",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "10:29",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:58",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:57",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-23": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "10:50",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [
+                {
+                    "time": "11:42",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "11:51",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:47",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:42",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:38",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:26",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [
+                {
+                    "time": "09:46",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:40",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:38",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "10:36",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "11:18",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "10:02",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-14": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [
+                {
+                    "time": "09:47",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "10:12",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:05",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:02",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "10:36",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [
+                {
+                    "time": "11:06",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:03",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:02",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:47",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:45",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:03",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "11:39",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:25",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:20",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:19",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [
+                {
+                    "time": "11:55",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:52",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:49",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "09:53",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:51",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "12:01",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "10:22",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:44",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:38",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [
+                {
+                    "time": "11:30",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:19",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:15",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-Z": []
+        },
+        "team-dj-43": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [
+                {
+                    "time": "12:04",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "09:57",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [
+                {
+                    "time": "10:53",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:38",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [
+                {
+                    "time": "12:01",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "12:00",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [
+                {
+                    "time": "11:14",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:14",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:46",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:33",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "10:07",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "10:48",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:14",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "09:37",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:32",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:28",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-38": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "12:04",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [
+                {
+                    "time": "10:43",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "10:48",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [
+                {
+                    "time": "09:19",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:17",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-11": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [
+                {
+                    "time": "11:02",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [
+                {
+                    "time": "11:23",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "10:06",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:47",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [
+                {
+                    "time": "10:50",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:48",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "11:28",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:37",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [
+                {
+                    "time": "11:45",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [
+                {
+                    "time": "11:35",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:12",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:10",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "09:46",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:43",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:33",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:29",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:27",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-41": {
+            "problem-Problem-A": [
+                {
+                    "time": "11:54",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:44",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [
+                {
+                    "time": "11:38",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:29",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-F": [
+                {
+                    "time": "12:03",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "09:46",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "09:36",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "09:26",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [
+                {
+                    "time": "11:36",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-37": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "10:31",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [
+                {
+                    "time": "11:22",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "09:58",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "11:38",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "12:02",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:59",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:56",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:03",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:59",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:48",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:46",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:42",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:27",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:26",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-13": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [
+                {
+                    "time": "11:46",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:30",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-G": [
+                {
+                    "time": "11:59",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "10:40",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [
+                {
+                    "time": "10:33",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [
+                {
+                    "time": "10:10",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:48",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:42",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:39",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-21": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [
+                {
+                    "time": "10:30",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "11:11",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "11:59",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:56",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:54",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:52",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:47",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:42",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:40",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:37",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:36",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:34",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [
+                {
+                    "time": "10:58",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:55",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:46",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:43",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "10:02",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:59",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:41",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:40",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-31": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "11:57",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "12:05",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_queued\u0022\u003Etoo-late\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [
+                {
+                    "time": "11:32",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [
+                {
+                    "time": "10:49",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:45",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:37",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:23",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "10:32",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "11:43",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "11:01",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:13",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-29": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "10:42",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:27",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [
+                {
+                    "time": "11:43",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [
+                {
+                    "time": "10:09",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:07",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:52",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:47",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:36",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:31",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-47": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "11:33",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "10:47",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:42",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [
+                {
+                    "time": "11:13",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:08",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:55",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [
+                {
+                    "time": "12:01",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [
+                {
+                    "time": "11:00",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:51",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:30",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:18",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "11:36",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:04",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:50",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:48",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [
+                {
+                    "time": "12:05",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_queued\u0022\u003Etoo-late\u003C\/span\u003E"
+                },
+                {
+                    "time": "12:03",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-6": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "10:13",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [
+                {
+                    "time": "09:43",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-20": {
+            "problem-Problem-A": [
+                {
+                    "time": "10:39",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:32",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "11:15",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [
+                {
+                    "time": "11:17",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:54",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "10:27",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:25",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-39": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "10:33",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:22",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:18",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:07",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [
+                {
+                    "time": "12:04",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "12:02",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "12:01",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:45",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:43",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:41",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:30",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:18",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:00",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-15": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [
+                {
+                    "time": "11:59",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_correct\u0022\u003Ecorrect\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [
+                {
+                    "time": "11:27",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:23",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:21",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:15",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:13",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:10",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [
+                {
+                    "time": "11:41",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [
+                {
+                    "time": "11:46",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:45",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:32",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:37",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:34",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:31",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:07",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:07",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:05",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-5": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-4": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-12": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [
+                {
+                    "time": "11:43",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:28",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:16",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-18": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [
+                {
+                    "time": "10:22",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:20",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:22",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-V": [
+                {
+                    "time": "12:05",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_queued\u0022\u003Etoo-late\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:29",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:26",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-19": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "11:33",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:28",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:24",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:00",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:25",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:24",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [
+                {
+                    "time": "09:59",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:58",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:57",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:37",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:33",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:25",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:24",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:21",
+                    "language": "java",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-24": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-27": {
+            "problem-Problem-A": [
+                {
+                    "time": "10:15",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:14",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:13",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:12",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:11",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:11",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [
+                {
+                    "time": "11:48",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [
+                {
+                    "time": "10:07",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:06",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:57",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:56",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:55",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "09:52",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [
+                {
+                    "time": "11:20",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [
+                {
+                    "time": "10:30",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:29",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-Z": []
+        },
+        "team-dj-28": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [
+                {
+                    "time": "11:04",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-34": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-35": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-36": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "11:37",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:26",
+                    "language": "python3",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-40": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-25": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [
+                {
+                    "time": "11:38",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:41",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:15",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "10:03",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-J": [
+                {
+                    "time": "11:28",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                },
+                {
+                    "time": "11:25",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [
+                {
+                    "time": "10:40",
+                    "language": "c",
+                    "verdict": "\u003Cspan class=\u0022sol sol_incorrect\u0022\u003Erejected\u003C\/span\u003E"
+                }
+            ],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-49": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        },
+        "team-dj-45": {
+            "problem-Problem-A": [],
+            "problem-Problem-B": [],
+            "problem-Problem-C": [],
+            "problem-Problem-D": [],
+            "problem-Problem-E": [],
+            "problem-Problem-F": [],
+            "problem-Problem-G": [],
+            "problem-Problem-H": [],
+            "problem-Problem-I": [],
+            "problem-Problem-J": [],
+            "problem-Problem-K": [],
+            "problem-Problem-L": [],
+            "problem-Problem-M": [],
+            "problem-Problem-N": [],
+            "problem-Problem-O": [],
+            "problem-Problem-P": [],
+            "problem-Problem-Q": [],
+            "problem-Problem-R": [],
+            "problem-Problem-S": [],
+            "problem-Problem-T": [],
+            "problem-Problem-U": [],
+            "problem-Problem-V": [],
+            "problem-Problem-W": [],
+            "problem-Problem-X": [],
+            "problem-Problem-Y": [],
+            "problem-Problem-Z": []
+        }
+    }
+}

@@ -17,28 +17,6 @@ a > .label {
     color: var(--ictpc-bright-blue);
 }
 
-/* 
-#register .half-section {
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-}
-
-#register .half-section {
-    display: flex;
-    justify-content: flex-start;
-} */
-
-#register .half-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    gap: 20px;
-}
-
 .reg-brand {
     display: flex;
     align-items: center;
@@ -206,7 +184,9 @@ a.box {
 #practice-ictpc25:active .icon,
 #practice-ictpc25:active .label,
 #competition-ictpc25:active .icon,
-#competition-ictpc25:active .label {
+#competition-ictpc25:active .label,
+#ictpc26-pset:active .icon,
+#ictpc26-pset:active .label {
     filter: brightness(0) saturate(100%) invert(12%) sepia(80%) saturate(5500%) hue-rotate(235deg) brightness(88%) contrast(101%);
 }
 
